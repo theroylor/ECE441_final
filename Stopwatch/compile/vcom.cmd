@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/ECE441_final/Stopwatch/compile/Stopwatch.erf -d c:/My_Designs/ECE441_final/Stopwatch/compile -s c:/My_Designs/ECE441_final/library.cfg -j c:/My_Designs/ECE441_final/Stopwatch/projlib.cfg -work Stopwatch -O3 -e 100 -work Stopwatch -2002 c:/My_Designs/ECE441_final/Stopwatch/compile/Controller.vhd 

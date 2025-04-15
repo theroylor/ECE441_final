@@ -1,0 +1,4 @@
+18
+~E 1 "../compile/Controller.vhd" 27 Controller
+~A 1 "../compile/Controller.vhd" 37 Controller_arch
+~E 1 "../compile/stopwatch.vhd" 24 stopwatch

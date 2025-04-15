@@ -1,0 +1,50 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=Stopwatch
+
+[Library]
+Stopwatch=.\Stopwatch\Stopwatch.lib
+
+[$LibMap$]
+Stopwatch=.
+Active_lib=
+
+[Settings]
+RUN_MODE_SYNTH=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/Controller.asf=-1
+/stopwatch.bde=-1
+/sevenseg.vhd=-1
+/BCD_counter.vhd=-1
+
+[Files.Data]
+.\src\Controller.asf=State Diagram
+.\src\stopwatch.bde=Block Diagram
+.\src\sevenseg.vhd=VHDL Source Code
+.\src\BCD_counter.vhd=VHDL Source Code
+
+[file_out:/Controller.asf]
+/..\compile\Controller.vhd=-1
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

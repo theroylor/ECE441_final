@@ -1,0 +1,28 @@
+V 000056 55 1064          1744724615075 Controller_arch
+(_unit VHDL(controller 0 27(controller_arch 0 37))
+	(_version ve8)
+	(_time 1744724615076 2025.04.15 09:43:35)
+	(_source(\../compile/Controller.vhd\))
+	(_parameters tan)
+	(_code 7024227126277167727e622a777623762376757772)
+	(_ent
+		(_time 1744724588620)
+	)
+	(_object
+		(_port(_int reset -1 0 29(_ent(_in))))
+		(_port(_int clock -1 0 30(_ent(_in)(_event))))
+		(_port(_int input -1 0 31(_ent(_in))))
+		(_port(_int brst -1 0 32(_ent(_out))))
+		(_port(_int bgo -1 0 33(_ent(_out))))
+		(_type(_int Sreg0_type 0 41(_enum1 S1 S2 S3 S4 (_to i 0 i 3))))
+		(_sig(_int Sreg0 0 0 50(_arch(_uni))))
+		(_sig(_int NextState_Sreg0 0 0 50(_arch(_uni))))
+		(_prcs
+			(Sreg0_NextState(_arch 0 0 71(_prcs(_simple)(_trgt(3)(4)(6))(_sens(2)(5)))))
+			(Sreg0_CurrentState(_arch 1 0 119(_prcs(_trgt(5))(_sens(1)(6))(_dssslsensitivity 1))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(STD_LOGIC_SIGNED)))
+	(_model . Controller_arch 2 -1)
+)
