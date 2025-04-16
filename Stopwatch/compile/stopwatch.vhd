@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\stopwatch.vhd
--- Generated   : Tue Apr 15 13:03:29 2025
+-- Generated   : Tue Apr 15 23:00:29 2025
 -- From        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\stopwatch.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -26,10 +26,10 @@ entity stopwatch is
        Key0 : in STD_LOGIC;
        Clock_50 : in STD_LOGIC;
        Key3 : in STD_LOGIC;
-       Hex0 : out STD_LOGIC_VECTOR(6 downto 0);
-       Hex1 : out STD_LOGIC_VECTOR(6 downto 0);
-       Hex2 : out STD_LOGIC_VECTOR(6 downto 0);
-       Hex3 : out STD_LOGIC_VECTOR(6 downto 0)
+       HEX0 : out STD_LOGIC_VECTOR(6 downto 0);
+       HEX1 : out STD_LOGIC_VECTOR(6 downto 0);
+       HEX2 : out STD_LOGIC_VECTOR(6 downto 0);
+       HEX3 : out STD_LOGIC_VECTOR(6 downto 0)
   );
 end stopwatch;
 
@@ -46,6 +46,13 @@ component BCD_counter
        n1 : out STD_LOGIC_VECTOR(3 downto 0);
        n2 : out STD_LOGIC_VECTOR(3 downto 0);
        n3 : out STD_LOGIC_VECTOR(3 downto 0)
+  );
+end component;
+component Clock_Gen
+  port(
+       reset : in STD_LOGIC;
+       clock : in STD_LOGIC;
+       clock_100 : out STD_LOGIC
   );
 end component;
 component Controller
@@ -66,10 +73,12 @@ end component;
 
 ---- Signal declarations used on the diagram ----
 
+signal bgo : STD_LOGIC;
+signal brst : STD_LOGIC;
 signal clk_100 : STD_LOGIC;
-signal NET677 : STD_LOGIC;
-signal NET681 : STD_LOGIC;
-signal NET900 : STD_LOGIC;
+signal clock : STD_LOGIC;
+signal input : STD_LOGIC;
+signal reset : STD_LOGIC;
 signal n0 : STD_LOGIC_VECTOR(3 downto 0);
 signal n1 : STD_LOGIC_VECTOR(3 downto 0);
 signal n2 : STD_LOGIC_VECTOR(3 downto 0);
@@ -81,55 +90,63 @@ begin
 
 U1 : Controller
   port map(
-       reset => NET900,
-       clock => clk_100,
-       input => Key3,
-       brst => NET677,
-       bgo => NET681
+       reset => reset,
+       clock => clock,
+       input => input,
+       brst => brst,
+       bgo => bgo
   );
 
-NET900 <= not(Key0);
+reset <= not(Key0);
 
 U2 : sevenseg
   port map(
        a => n0,
-       y => Hex0
+       y => HEX0
   );
 
 U3 : sevenseg
   port map(
        a => n1,
-       y => Hex1
+       y => HEX1
   );
 
 U4 : sevenseg
   port map(
        a => n2,
-       y => Hex2
+       y => HEX2
   );
 
 U5 : sevenseg
   port map(
        a => n3,
-       y => Hex3
+       y => HEX3
   );
 
 U6 : BCD_counter
   port map(
        clock => clk_100,
-       reset => NET677,
-       enable => NET681,
+       reset => brst,
+       enable => bgo,
        n0 => n0,
        n1 => n1,
        n2 => n2,
        n3 => n3
   );
 
+U7 : Clock_Gen
+  port map(
+       reset => reset,
+       clock => clock,
+       clock_100 => clk_100
+  );
+
 
 ---- Terminal assignment ----
 
     -- Inputs terminals
-	clk_100 <= Clock_50;
+	clock <= Clock_50;
+	input <= Key3;
 
 
 end stopwatch;

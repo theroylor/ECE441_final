@@ -1,2 +1,1236 @@
 # ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'stopwatch' of entity 'stopwatch' not found in library 'stopwatch'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Error: COMP96_0018: Clock_Gen.vhd : (12, 1): Identifier expected.
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# Error: COMP96_0056: Clock_Gen.vhd : (15, 1): Cannot find referenced entity declaration "Clock_Gen".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# Error: COMP96_0078: Clock_Gen.vhd : (18, 9): Unknown identifier "reset".
+# Error: COMP96_0348: Clock_Gen.vhd : (18, 9): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: Clock_Gen.vhd : (20, 7): Unknown identifier "reset".
+# Error: COMP96_0133: Clock_Gen.vhd : (20, 7): Cannot find object declaration.
+# Error: COMP96_0077: Clock_Gen.vhd : (20, 6): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/stopwatch.bde
+# DRC: Checking file 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/stopwatch.bde'.
+# DRC: Warning: stopwatch.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\stopwatch.vhd from F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\stopwatch.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/stopwatch.vhd
+# Compile Entity "stopwatch"
+# Compile Architecture "stopwatch" of Entity "stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/stopwatch.bde
+# DRC: Checking file 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/stopwatch.bde'.
+# DRC: stopwatch.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\stopwatch.vhd from F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\stopwatch.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/stopwatch.vhd
+# Compile Entity "stopwatch"
+# Compile Architecture "stopwatch" of Entity "stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/stopwatch.bde
+# DRC: Checking file 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/stopwatch.bde'.
+# DRC: stopwatch.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\stopwatch.vhd from F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\stopwatch.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/stopwatch.vhd
+# Compile Entity "stopwatch"
+# Compile Architecture "stopwatch" of Entity "stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# Error: COMP96_0015: Clock_Gen.vhd : (25, 2): ';' expected.
+# Error: COMP96_0019: Clock_Gen.vhd : (37, 1): Keyword 'begin' expected.
+# Error: COMP96_0015: Clock_Gen.vhd : (39, 5): ';' expected.
+# Error: COMP96_0016: Clock_Gen.vhd : (39, 7): Design unit declaration expected.
+# Error: COMP96_0018: Clock_Gen.vhd : (40, 17): Identifier expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# Error: COMP96_0019: Clock_Gen.vhd : (37, 1): Keyword 'begin' expected.
+# Error: COMP96_0015: Clock_Gen.vhd : (39, 5): ';' expected.
+# Error: COMP96_0016: Clock_Gen.vhd : (39, 7): Design unit declaration expected.
+# Error: COMP96_0018: Clock_Gen.vhd : (40, 17): Identifier expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# Error: COMP96_0019: Clock_Gen.vhd : (41, 5): Keyword 'process' expected.
+# Error: COMP96_0019: Clock_Gen.vhd : (41, 17): Keyword 'end' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# Error: COMP96_0393: Clock_Gen.vhd : (39, 19): Cannot read output : "clock_100".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# Error: COMP96_0078: Clock_Gen.vhd : (44, 14): Unknown identifier "cllk_out".
+# Error: COMP96_0133: Clock_Gen.vhd : (44, 14): Cannot find object declaration.
+# Error: COMP96_0077: Clock_Gen.vhd : (44, 14): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/stopwatch.bde
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/stopwatch.vhd
+# Compile Entity "stopwatch"
+# Compile Architecture "stopwatch" of Entity "stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Error: COMP96_0019: TestBench/stopwatch_TB.vhd : (49, 1): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/stopwatch_TB.vhd : (49, 8): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Error: COMP96_0209: TestBench/stopwatch_TB.vhd : (61, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Error: COMP96_0019: TestBench/stopwatch_TB.vhd : (51, 1): Keyword 'begin' expected.
+# Error: COMP96_0019: TestBench/stopwatch_TB.vhd : (51, 17): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/stopwatch_TB.vhd : (51, 22): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Error: COMP96_0209: TestBench/stopwatch_TB.vhd : (61, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Error: COMP96_0019: TestBench/stopwatch_TB.vhd : (59, 1): Keyword 'begin' expected.
+# Error: COMP96_0019: TestBench/stopwatch_TB.vhd : (61, 1): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/stopwatch_TB.vhd : (61, 15): Design unit declaration expected.
+# Error: COMP96_0018: TestBench/stopwatch_TB.vhd : (64, 8): Identifier expected.
+# Error: COMP96_0016: TestBench/stopwatch_TB.vhd : (64, 15): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Error: COMP96_0019: TestBench/stopwatch_TB.vhd : (49, 1): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/stopwatch_TB.vhd : (49, 8): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Error: COMP96_0209: TestBench/stopwatch_TB.vhd : (62, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Error: COMP96_0019: TestBench/stopwatch_TB.vhd : (59, 1): Keyword 'begin' expected.
+# Error: COMP96_0019: TestBench/stopwatch_TB.vhd : (61, 1): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/stopwatch_TB.vhd : (61, 15): Design unit declaration expected.
+# Error: COMP96_0018: TestBench/stopwatch_TB.vhd : (64, 8): Identifier expected.
+# Error: COMP96_0016: TestBench/stopwatch_TB.vhd : (64, 15): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (52, 2): Unknown identifier "clock".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (52, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (52, 25): Unknown identifier "clock_period".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (52, 25): Cannot find object declaration.
+# Error: COMP96_0085: TestBench/stopwatch_TB.vhd : (52, 25): Time expression expected.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (53, 2): Unknown identifier "clock".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (53, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (53, 25): Unknown identifier "clock_period".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (53, 25): Cannot find object declaration.
+# Error: COMP96_0085: TestBench/stopwatch_TB.vhd : (53, 25): Time expression expected.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (58, 2): Unknown identifier "reset".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (58, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (58, 31): Unknown identifier "clock_period".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (58, 31): Cannot find object declaration.
+# Error: COMP96_0085: TestBench/stopwatch_TB.vhd : (58, 25): Time expression expected.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (59, 2): Unknown identifier "reset".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (59, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (59, 31): Unknown identifier "clock_period".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (59, 31): Cannot find object declaration.
+# Error: COMP96_0085: TestBench/stopwatch_TB.vhd : (59, 25): Time expression expected.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (60, 2): Unknown identifier "reset".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (60, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (60, 32): Unknown identifier "clock_period".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (60, 32): Cannot find object declaration.
+# Error: COMP96_0085: TestBench/stopwatch_TB.vhd : (60, 25): Time expression expected.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (61, 2): Unknown identifier "reset".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (61, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (61, 31): Unknown identifier "clock_period".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (61, 31): Cannot find object declaration.
+# Error: COMP96_0085: TestBench/stopwatch_TB.vhd : (61, 25): Time expression expected.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (62, 2): Unknown identifier "reset".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (62, 2): Cannot find object declaration.
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Error: COMP96_0209: TestBench/stopwatch_TB.vhd : (71, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 33 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Error: COMP96_0019: TestBench/stopwatch_TB.vhd : (49, 1): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/stopwatch_TB.vhd : (49, 10): Design unit declaration expected.
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Error: COMP96_0209: TestBench/stopwatch_TB.vhd : (71, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (58, 2): Unknown identifier "reset".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (58, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (59, 2): Unknown identifier "reset".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (59, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (60, 2): Unknown identifier "reset".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (60, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (61, 2): Unknown identifier "reset".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (61, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/stopwatch_TB.vhd : (62, 2): Unknown identifier "reset".
+# Error: COMP96_0133: TestBench/stopwatch_TB.vhd : (62, 2): Cannot find object declaration.
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Error: COMP96_0209: TestBench/stopwatch_TB.vhd : (71, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch.
 # ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+stopwatch_tb stopwatch_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (91): Component /stopwatch_tb/UUT/U1 : Controller not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=256 elab2=5655 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  11:21 PM, Tuesday, April 15, 2025
+#  Simulation has been initialized
+# 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (91): Component /stopwatch_tb/UUT/U1 : Controller not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=256 elab2=5655 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  11:21 PM, Tuesday, April 15, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (91): Component /stopwatch_tb/UUT/U1 : Controller not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=256 elab2=5655 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  11:23 PM, Tuesday, April 15, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+run @100ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+stopwatch_tb stopwatch_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (91): Component /stopwatch_tb/UUT/U1 : Controller not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=256 elab2=5655 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  11:23 PM, Tuesday, April 15, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+# 8 object(s) traced.
+run @1us
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+stopwatch_tb stopwatch_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (91): Component /stopwatch_tb/UUT/U1 : Controller not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=256 elab2=5655 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  11:25 PM, Tuesday, April 15, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
+# 8 object(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (91): Component /stopwatch_tb/UUT/U1 : Controller not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=256 elab2=5655 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  11:25 PM, Tuesday, April 15, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+run @1us
+# KERNEL: stopped at time: 1 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (91): Component /stopwatch_tb/UUT/U1 : Controller not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=256 elab2=5655 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  11:25 PM, Tuesday, April 15, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+run @10sec
+endsim
+# KERNEL: stopped at time: 90485470 ns
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Error: COMP96_0085: TestBench/stopwatch_TB.vhd : (63, 24): Time expression expected.
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+stopwatch_tb stopwatch_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (91): Component /stopwatch_tb/UUT/U1 : Controller not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=256 elab2=5655 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  11:28 PM, Tuesday, April 15, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+# 8 object(s) traced.
+run @10sec
+endsim
+# KERNEL: stopped at time: 12565170 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+stopwatch_tb stopwatch_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (91): Component /stopwatch_tb/UUT/U1 : Controller not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=256 elab2=5655 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  11:28 PM, Tuesday, April 15, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+# 8 object(s) traced.
+# KERNEL: stopped at time: 10 ms
+run @190ms
+endsim
+# KERNEL: stopped at time: 36445390 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+stopwatch_tb stopwatch_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (91): Design unit Controller instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (91): Component /stopwatch_tb/UUT/U1 : Controller not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6049 kB (elbread=256 elab2=5655 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  11:28 PM, Tuesday, April 15, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/compile/Controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd
+# Compile Entity "Controller"
+# Compile Architecture "Controller_arch" of Entity "Controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+stopwatch_tb stopwatch_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (102): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (108): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (114): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (120): Design unit sevenseg instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (102): Component /stopwatch_tb/UUT/U2 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (108): Component /stopwatch_tb/UUT/U3 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (114): Component /stopwatch_tb/UUT/U4 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (120): Component /stopwatch_tb/UUT/U5 : sevenseg not bound.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6050 kB (elbread=256 elab2=5656 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  8:07 AM, Wednesday, April 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/sevenseg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/sevenseg.vhd
+# Compile Entity "sevenseg"
+# Compile Architecture "behavioral" of Entity "sevenseg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+stopwatch_tb stopwatch_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0081 stopwatch.vhd (126): Design unit BCD_counter instantiated in stopwatch.stopwatch(stopwatch) not found in searched libraries: stopwatch, Stopwatch.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 stopwatch.vhd (126): Component /stopwatch_tb/UUT/U6 : BCD_counter not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6054 kB (elbread=256 elab2=5660 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  8:07 AM, Wednesday, April 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/stopwatch.bde $dsn/src/sevenseg.vhd $dsn/src/BCD_counter.vhd $dsn/src/Controller.asf $dsn/src/Clock_Gen.vhd $dsn/src/TestBench/stopwatch_TB.vhd $dsn/src/TestBench/controller_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/stopwatch.vhd
+# Compile Entity "stopwatch"
+# Compile Architecture "stopwatch" of Entity "stopwatch"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/sevenseg.vhd
+# Compile Entity "sevenseg"
+# Compile Architecture "behavioral" of Entity "sevenseg"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd
+# Compile Entity "BCD_counter"
+# Compile Architecture "behavioral" of Entity "BCD_counter"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd
+# Compile Entity "Controller"
+# Compile Architecture "Controller_arch" of Entity "Controller"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/controller_TB.vhd
+# Compile Entity "controller_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "controller_tb"
+# Compile Configuration "TESTBENCH_FOR_controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+stopwatch_tb stopwatch_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6078 kB (elbread=256 elab2=5684 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  8:08 AM, Wednesday, April 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+# 8 object(s) traced.
+run @10ms
+# KERNEL: stopped at time: 10 ms
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/controller_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/controller_TB.vhd
+# Compile Entity "controller_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "controller_tb"
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (49, 2): Unknown identifier "Clock_50".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (49, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (50, 2): Unknown identifier "Clock_50".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (50, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (55, 2): Unknown identifier "Key0".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (55, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (57, 2): Unknown identifier "Key3".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (57, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (58, 2): Unknown identifier "Key3".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (58, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (59, 2): Unknown identifier "Key3".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (59, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (60, 2): Unknown identifier "Key3".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (60, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (61, 2): Unknown identifier "Key3".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (61, 2): Cannot find object declaration.
+# Compile Configuration "TESTBENCH_FOR_controller"
+# Compile failure 16 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/controller_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/controller_TB.vhd
+# Compile Entity "controller_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "controller_tb"
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (49, 2): Unknown identifier "Clock_50".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (49, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (50, 2): Unknown identifier "Clock_50".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (50, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (55, 2): Unknown identifier "Key0".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (55, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (57, 2): Unknown identifier "Key3".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (57, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (58, 2): Unknown identifier "Key3".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (58, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (59, 2): Unknown identifier "Key3".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (59, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (60, 2): Unknown identifier "Key3".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (60, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (61, 2): Unknown identifier "Key3".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (61, 2): Cannot find object declaration.
+# Compile Configuration "TESTBENCH_FOR_controller"
+# Compile failure 16 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/controller_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/controller_TB.vhd
+# Compile Entity "controller_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "controller_tb"
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (49, 2): Unknown identifier "Clock_50".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (49, 2): Cannot find object declaration.
+# Error: COMP96_0078: TestBench/controller_TB.vhd : (50, 2): Unknown identifier "Clock_50".
+# Error: COMP96_0133: TestBench/controller_TB.vhd : (50, 2): Cannot find object declaration.
+# Compile Configuration "TESTBENCH_FOR_controller"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/controller_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/controller_TB.vhd
+# Compile Entity "controller_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "controller_tb"
+# Compile Configuration "TESTBENCH_FOR_controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+stopwatch_tb stopwatch_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6078 kB (elbread=256 elab2=5684 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  8:11 AM, Wednesday, April 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+# 8 object(s) traced.
+run @10ms
+# KERNEL: stopped at time: 10 ms
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/controller_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/controller_TB.vhd
+# Compile Entity "controller_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "controller_tb"
+# Compile Configuration "TESTBENCH_FOR_controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Warning: WAVEFORM: Object matching /controller_tb/reset not found in F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /controller_tb/clock not found in F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /controller_tb/input not found in F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /controller_tb/brst not found in F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /controller_tb/bgo not found in F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /controller_tb/clock_period not found in F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb.
+asim -O5 +access +r +m+controller_tb controller_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5024 kB (elbread=256 elab2=4630 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  8:12 AM, Wednesday, April 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+# 6 object(s) traced.
+run @10ms
+# KERNEL: stopped at time: 10 ms
+# KERNEL: stopped at time: 10010 ms
+run @110.01sec
+# KERNEL: stopped at time: 110010 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5024 kB (elbread=256 elab2=4630 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  8:17 AM, Wednesday, April 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/stopwatch.bde $dsn/src/sevenseg.vhd $dsn/src/BCD_counter.vhd $dsn/src/Controller.asf $dsn/src/Clock_Gen.vhd $dsn/src/TestBench/stopwatch_TB.vhd $dsn/src/TestBench/controller_TB.vhd $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/stopwatch.vhd
+# Compile Entity "stopwatch"
+# Compile Architecture "stopwatch" of Entity "stopwatch"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/sevenseg.vhd
+# Compile Entity "sevenseg"
+# Compile Architecture "behavioral" of Entity "sevenseg"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd
+# Compile Entity "BCD_counter"
+# Compile Architecture "behavioral" of Entity "BCD_counter"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd
+# Compile Entity "Controller"
+# Compile Architecture "Controller_arch" of Entity "Controller"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "behavioral" of Entity "Clock_Gen"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/controller_TB.vhd
+# Compile Entity "controller_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "controller_tb"
+# Compile Configuration "TESTBENCH_FOR_controller"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"
+# Error: COMP96_0019: TestBench/bcd_counter_TB.vhd : (74, 5): Keyword 'process' expected.
+# Error: COMP96_0019: TestBench/bcd_counter_TB.vhd : (76, 1): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/bcd_counter_TB.vhd : (76, 15): Design unit declaration expected.
+# Error: COMP96_0018: TestBench/bcd_counter_TB.vhd : (79, 8): Identifier expected.
+# Error: COMP96_0016: TestBench/bcd_counter_TB.vhd : (79, 15): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"
+# Error: COMP96_0019: TestBench/bcd_counter_TB.vhd : (74, 5): Keyword 'process' expected.
+# Error: COMP96_0019: TestBench/bcd_counter_TB.vhd : (76, 1): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/bcd_counter_TB.vhd : (76, 15): Design unit declaration expected.
+# Error: COMP96_0018: TestBench/bcd_counter_TB.vhd : (79, 8): Identifier expected.
+# Error: COMP96_0016: TestBench/bcd_counter_TB.vhd : (79, 15): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"
+# Error: COMP96_0019: TestBench/bcd_counter_TB.vhd : (74, 5): Keyword 'process' expected.
+# Error: COMP96_0019: TestBench/bcd_counter_TB.vhd : (76, 1): Keyword 'end' expected.
+# Error: COMP96_0016: TestBench/bcd_counter_TB.vhd : (76, 15): Design unit declaration expected.
+# Error: COMP96_0018: TestBench/bcd_counter_TB.vhd : (79, 8): Identifier expected.
+# Error: COMP96_0016: TestBench/bcd_counter_TB.vhd : (79, 15): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"
+# Error: COMP96_0019: TestBench/bcd_counter_TB.vhd : (73, 5): Keyword 'process' expected.
+# Compile Configuration "TESTBENCH_FOR_bcd_counter"
+# Error: COMP96_0209: TestBench/bcd_counter_TB.vhd : (78, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"
+# Compile Configuration "TESTBENCH_FOR_bcd_counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+bcd_counter_tb bcd_counter_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6070 kB (elbread=256 elab2=5676 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  8:19 AM, Wednesday, April 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+# 5 object(s) traced.
+run @100sec
+# KERNEL: stopped at time: 100 sec
+# 3 object(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6070 kB (elbread=256 elab2=5676 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  8:19 AM, Wednesday, April 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+run @100sec
+# KERNEL: stopped at time: 100 sec
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6070 kB (elbread=256 elab2=5676 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  8:20 AM, Wednesday, April 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+run @100sec
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"
+# Compile Configuration "TESTBENCH_FOR_bcd_counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6071 kB (elbread=256 elab2=5676 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\wave.asdb
+#  8:20 AM, Wednesday, April 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/wave.asdb'.
+run @100sec
+# KERNEL: stopped at time: 100 sec
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"
+# Compile Configuration "TESTBENCH_FOR_bcd_counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+run @200sec
+# KERNEL: stopped at time: 200 sec
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"
+# Error: COMP96_0015: TestBench/bcd_counter_TB.vhd : (64, 37): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_bcd_counter"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"
+# Error: COMP96_0015: TestBench/bcd_counter_TB.vhd : (64, 37): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_bcd_counter"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile A
