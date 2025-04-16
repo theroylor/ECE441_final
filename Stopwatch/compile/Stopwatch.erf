@@ -1,6 +1,11 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd" 
-MESSAGE "Compile Entity "bcd_counter_tb"" 
-MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"" 
-MESSAGE "Compile Configuration "TESTBENCH_FOR_bcd_counter"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 
+MESSAGE "File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd" 
+MESSAGE "Compile Entity "stopwatch"" 
+MESSAGE "Compile Architecture "stopwatch" of Entity "stopwatch"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => stopwatch" 
+WARNING ELAB1_0026: "There is no default binding for component "Controller". (No entity named "Controller" was found)." "F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd" 94 0
+WARNING ELAB1_0026: "There is no default binding for component "sevenseg". (No entity named "sevenseg" was found)." "F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd" 105 0
+WARNING ELAB1_0026: "There is no default binding for component "BCD_counter". (No entity named "BCD_counter" was found)." "F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd" 129 0
+WARNING ELAB1_0026: "There is no default binding for component "Clock_Gen". (No entity named "Clock_Gen" was found)." "F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd" 140 0
+SUCCESS "Compile success 0 Errors 4 Warnings  Analysis time :  0.1 [s]" 

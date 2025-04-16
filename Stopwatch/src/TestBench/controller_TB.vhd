@@ -52,12 +52,13 @@ end process;
 
 Stimulus_process: process
 begin	 
-	reset <= '1'; wait for 0 ns;
+	reset <= '0'; wait for 0 ns;
 	
-	input <= '0'; wait for 400 ns;
-	input <= '1'; wait for 300 ns;
-	input <= '0'; wait for 300 ns;
-	input <= '1'; wait for 10 sec;
+	input <= '0'; wait for 100 ms;
+	input <= '1'; wait for 100 ms;
+	input <= '0'; wait for 100 ms;
+	input <= '1'; wait for 100 ms;
+	input <= '0'; wait for 100 ms;
 	input <= '0';
 	wait;
 end process;

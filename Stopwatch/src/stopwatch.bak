@@ -2,7 +2,7 @@ SCHM0106
 
 HEADER
 {
- FREEID 1453
+ FREEID 1470
  VARIABLES
  {
   #ARCHITECTURE="stopwatch"
@@ -669,7 +669,7 @@ PAGE ""
     #COMPONENT="BusOutput"
     #LIBRARY="#terminals"
     #ORDER="3"
-    #REFERENCE="Hex0(6:0)"
+    #REFERENCE="HEX0(6:0)"
     #SYMBOL="BusOutput"
     #VHDL_TYPE="STD_LOGIC_VECTOR"
    }
@@ -679,7 +679,7 @@ PAGE ""
   TEXT  8, 0, 0
   {
    TEXT "$#REFERENCE"
-   RECT (1955,483,2083,518)
+   RECT (1955,483,2092,518)
    ALIGN 4
    MARGINS (1,1)
    PARENT 7
@@ -691,7 +691,7 @@ PAGE ""
     #COMPONENT="BusOutput"
     #LIBRARY="#terminals"
     #ORDER="4"
-    #REFERENCE="Hex1(6:0)"
+    #REFERENCE="HEX1(6:0)"
     #SYMBOL="BusOutput"
     #VHDL_TYPE="STD_LOGIC_VECTOR"
    }
@@ -701,7 +701,7 @@ PAGE ""
   TEXT  10, 0, 0
   {
    TEXT "$#REFERENCE"
-   RECT (1955,643,2083,678)
+   RECT (1955,643,2092,678)
    ALIGN 4
    MARGINS (1,1)
    PARENT 9
@@ -713,7 +713,7 @@ PAGE ""
     #COMPONENT="BusOutput"
     #LIBRARY="#terminals"
     #ORDER="5"
-    #REFERENCE="Hex2(6:0)"
+    #REFERENCE="HEX2(6:0)"
     #SYMBOL="BusOutput"
     #VHDL_TYPE="STD_LOGIC_VECTOR"
    }
@@ -723,7 +723,7 @@ PAGE ""
   TEXT  12, 0, 0
   {
    TEXT "$#REFERENCE"
-   RECT (1955,803,2083,838)
+   RECT (1955,803,2092,838)
    ALIGN 4
    MARGINS (1,1)
    PARENT 11
@@ -735,7 +735,7 @@ PAGE ""
     #COMPONENT="BusOutput"
     #LIBRARY="#terminals"
     #ORDER="6"
-    #REFERENCE="Hex3(6:0)"
+    #REFERENCE="HEX3(6:0)"
     #SYMBOL="BusOutput"
     #VHDL_TYPE="STD_LOGIC_VECTOR"
    }
@@ -745,7 +745,7 @@ PAGE ""
   TEXT  14, 0, 0
   {
    TEXT "$#REFERENCE"
-   RECT (1955,963,2083,998)
+   RECT (1955,963,2092,998)
    ALIGN 4
    MARGINS (1,1)
    PARENT 13
@@ -825,7 +825,7 @@ PAGE ""
   {
    VARIABLES
    {
-    #NAME="Hex0(6:0)"
+    #NAME="HEX0(6:0)"
    }
   }
   INSTANCE  638, 0, 0
@@ -861,7 +861,7 @@ PAGE ""
   {
    VARIABLES
    {
-    #NAME="Hex2(6:0)"
+    #NAME="HEX2(6:0)"
    }
   }
   INSTANCE  648, 0, 0
@@ -1529,7 +1529,7 @@ PAGE ""
  
  BODY
  {
-  TEXT  1436, 0, 0
+  TEXT  1453, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -1540,7 +1540,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,1,0,"Arial")
   }
-  TEXT  1437, 0, 0
+  TEXT  1454, 0, 0
   {
    PAGEALIGN 10
    TEXT "$CREATIONDATE"
@@ -1551,7 +1551,7 @@ PAGE ""
    FONT (12,0,0,700,0,1,0,"Arial")
    UPDATE 0
   }
-  TEXT  1438, 0, 0
+  TEXT  1455, 0, 0
   {
    PAGEALIGN 10
    TEXT "Title:"
@@ -1561,7 +1561,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,1,0,"Arial")
   }
-  TEXT  1439, 0, 0
+  TEXT  1456, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -1573,7 +1573,7 @@ PAGE ""
    FONT (12,0,0,700,0,1,0,"Arial")
    UPDATE 0
   }
-  TEXT  1440, 0, 0
+  TEXT  1457, 0, 0
   {
    PAGEALIGN 10
    TEXT 
@@ -1586,7 +1586,7 @@ PAGE ""
    FONT (12,0,0,700,0,1,0,"Arial")
    MULTILINE
   }
-  TEXT  1441, 0, 0
+  TEXT  1458, 0, 0
   {
    PAGEALIGN 10
    TEXT "Page:"
@@ -1596,7 +1596,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,1,0,"Arial")
   }
-  TEXT  1442, 0, 0
+  TEXT  1459, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -1608,7 +1608,7 @@ PAGE ""
    FONT (12,0,0,700,0,1,0,"Arial")
    UPDATE 0
   }
-  TEXT  1443, 0, 0
+  TEXT  1460, 0, 0
   {
    PAGEALIGN 10
    TEXT "Revision:"
@@ -1618,7 +1618,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,1,0,"Arial")
   }
-  TEXT  1444, 0, 0
+  TEXT  1461, 0, 0
   {
    PAGEALIGN 10
    TEXT "$Revision"
@@ -1629,7 +1629,7 @@ PAGE ""
    FONT (12,0,0,700,0,204,0,"Arial")
    UPDATE 0
   }
-  GROUP  1445, 0, 0
+  GROUP  1462, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1120,2001,1501)
@@ -1641,7 +1641,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1446, 0, 0
+  GROUP  1463, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1320,2001,1321)
@@ -1653,7 +1653,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1447, 0, 0
+  GROUP  1464, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1260,2001,1261)
@@ -1665,7 +1665,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1448, 0, 0
+  GROUP  1465, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1380,2001,1381)
@@ -1677,7 +1677,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1449, 0, 0
+  GROUP  1466, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1440,2001,1441)
@@ -1689,7 +1689,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1450, 0, 0
+  GROUP  1467, 0, 0
   {
    PAGEALIGN 10
    RECT (1300,1120,1301,1261)
@@ -1700,7 +1700,7 @@ PAGE ""
     POINTS ( (0,0), (0,140) )
    }
   }
-  GROUP  1451, 0, 0
+  GROUP  1468, 0, 0
   {
    PAGEALIGN 10
    RECT (1300,1260,1301,1501)
@@ -1711,7 +1711,7 @@ PAGE ""
     POINTS ( (0,0), (0,240) )
    }
   }
-  BMPPICT  1452, 0, 0
+  BMPPICT  1469, 0, 0
   {
    PAGEALIGN 10
    RECT (1140,1180,1279,1225)

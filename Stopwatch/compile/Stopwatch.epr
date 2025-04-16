@@ -1,2 +1,9 @@
+"./../compile/stopwatch.vhd" VHDL Stopwatch 1 0 0 -02
+"F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/sevenseg.vhd" VHDL Stopwatch 1 0 0 -02
+"F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd" VHDL Stopwatch 1 0 0 -02
+"F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd" VHDL Stopwatch 1 0 0 -02
+"F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.vhd" VHDL Stopwatch 1 0 0 -02
+"F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd" VHDL Stopwatch 1 0 0 -02
+"F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/controller_TB.vhd" VHDL Stopwatch 1 0 0 -02
 "F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd" VHDL Stopwatch 1 0 0 -02
 . . 0 0 0

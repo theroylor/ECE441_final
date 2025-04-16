@@ -5,10 +5,11 @@ version=4
 Current Config=compile
 
 [Configurations]
-compile=Stopwatch
+compile=Stopwatch_timing
 
 [Library]
 Stopwatch=.\Stopwatch\Stopwatch.lib
+Stopwatch_timing=.\Stopwatch_timing\Stopwatch_timing.lib
 
 [$LibMap$]
 Stopwatch=.
@@ -23,9 +24,20 @@ FLOWTOOLS=IMPL_WITH_SYNTH
 ON_SERVERFARM_SYNTH=0
 ON_SERVERFARM_IMPL=0
 ON_SERVERFARM_SIM=0
+FUNC_LIB=Stopwatch
+TIM_LIB=Stopwatch_timing
+SYNTH_STATUS=none
+IMPL_TOOL=
+SYNTH_TOOL=MV_QUARTUS_SYNTHESIS201
+CSYNTH_TOOL=
+PHYSSYNTH_TOOL=
+FAMILY=Quartus CycloneV
+IMPL_STATUS=none
+VerilogDirsChanged=0
 
 [IMPLEMENTATION]
 UCF=
+DEVICE_TECHNOLOGY_MIGRATION_LIST=
 
 [SpecTracer]
 WindowVisible=0
@@ -68,7 +80,36 @@ TestBench/bcd_counter_TB_runtest.do=-1
 
 
 
-[file_out:/stopwatch.bde]
-/..\compile\stopwatch.vhd=-1
 [file_out:/Controller.asf]
 /..\compile\Controller.vhd=-1
+[file_out:/stopwatch.bde]
+/..\compile\stopwatch.vhd=-1
+[SYNTHESIS]
+FAMILY=Quartus CycloneV
+DEVICE=AUTO
+SPEED=ANY
+TOPLEVEL=stopwatch
+JOB_DESCRIPTION=SynthesisTask
+JOB_SFM_RESOURCE=
+ENABLE_SIGNALTAP=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=
+OVERWRITE_PROJECT=1
+AUTO_CLOSE=0
+QSF_FILE_SELECTION=
+CHECK_PROJECT_OUTPUT_DIRECTORY=0
+CHECK_OPTIMIZE_HOLD_TIMING=1
+USE_SIGNALTAP_FILE=
+ENABLE_LOGIC_ANALYZER_INTERFACE=0
+USE_LOGIC_ANALYZER_INTERFACE_FILE=
+OLD_FAMILY=Quartus CycloneV
+CHECK_IMPORT_PIN_ASSIGNMENTS=0
+IMPORT_PIN_ASSIGNMENTS=
+CHECK_GENERATE_FPGA_EXCHANGE_FILE=0
+GENERATE_FPGA_EXCHANGE_FILE=.\symbols\fpgaxchange
+BTM_IO_STANDARD=1.2V
+DEFAULT_QUARTUS_SETTINGS_FILE=C:\intelFPGA_lite\20.1\quartus\bin64\assignment_defaults.qdf
+OUTPUT_IO_TIMING_NEAR_END_VMEAS_RISE=Half Signal Swing
+OUTPUT_IO_TIMING_NEAR_END_VMEAS_FALL=Half Signal Swing
+OUTPUT_IO_TIMING_FAR_END_VMEAS_RISE=Half Signal Swing
+OUTPUT_IO_TIMING_FAR_END_VMEAS_FALL=Half Signal Swing

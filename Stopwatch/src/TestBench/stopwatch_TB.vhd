@@ -57,11 +57,12 @@ Stimulus_process: process
 begin	 
 	Key0 <= '1'; wait for 0 ns;
 	
-	Key3 <= '0'; wait for 400 ns;
-	Key3 <= '1'; wait for 300 ns;
-	Key3 <= '0'; wait for 300 ns;
-	Key3 <= '1'; wait for 10 sec;
-	Key3 <= '0';
+	Key3 <= '0'; wait for 100 ms;
+	Key3 <= '1'; wait for 100 ms;
+	Key3 <= '0'; wait for 100 ms;
+	Key3 <= '1'; wait for 100 ms;
+	Key3 <= '0'; wait for 100 ms;
+	Key3 <= '1'; wait for 100 ms;
 	wait;
 end process;
 

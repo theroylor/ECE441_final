@@ -3,6 +3,3 @@ i<>.\src\sevenseg.vhd
 i<>.\src\BCD_counter.vhd
 i<>.\src\Controller.asf
 i<>.\src\Clock_Gen.vhd
-i<>.\src\TestBench\stopwatch_TB.vhd
-i<>.\src\TestBench\controller_TB.vhd
-i<>.\src\TestBench\bcd_counter_TB.vhd
