@@ -27,24 +27,29 @@ ON_SERVERFARM_SIM=0
 [IMPLEMENTATION]
 UCF=
 
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=stopwatch|stopwatch|0  
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
-/Controller.asf=-1
 /stopwatch.bde=-1
 /sevenseg.vhd=-1
 /BCD_counter.vhd=-1
+/Controller.asf=-1
 
 [Files.Data]
-.\src\Controller.asf=State Diagram
 .\src\stopwatch.bde=Block Diagram
 .\src\sevenseg.vhd=VHDL Source Code
 .\src\BCD_counter.vhd=VHDL Source Code
+.\src\Controller.asf=State Diagram
+
+[file_out:/stopwatch.bde]
+/..\compile\stopwatch.vhd=-1
 
 [file_out:/Controller.asf]
 /..\compile\Controller.vhd=-1
 
-[SpecTracer]
-WindowVisible=0
-[HierarchyViewer]
-HierarchyInformation=
-ShowHide=ShowTopLevel
-Selected=

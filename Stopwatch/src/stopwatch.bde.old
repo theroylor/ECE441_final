@@ -2,7 +2,7 @@ SCHM0106
 
 HEADER
 {
- FREEID 1123
+ FREEID 1350
  VARIABLES
  {
   #ARCHITECTURE="stopwatch"
@@ -499,7 +499,7 @@ PAGE ""
     #VHDL_TYPE="STD_LOGIC"
    }
    COORD (440,460)
-   VERTEXES ( (2,899) )
+   VERTEXES ( (2,1329) )
   }
   TEXT  2, 0, 0
   {
@@ -542,13 +542,13 @@ PAGE ""
     #SYMBOL="Input"
     #VHDL_TYPE="STD_LOGIC"
    }
-   COORD (460,980)
-   VERTEXES ( (2,879) )
+   COORD (440,980)
+   VERTEXES ( (2,1235) )
   }
   TEXT  6, 0, 0
   {
    TEXT "$#REFERENCE"
-   RECT (339,963,405,998)
+   RECT (319,963,385,998)
    ALIGN 6
    MARGINS (1,1)
    PARENT 5
@@ -666,7 +666,7 @@ PAGE ""
     #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="4f57385d-3c0b-4b03-83c0-01e22eb55a3b"
    }
    COORD (1000,860)
-   VERTEXES ( (8,855), (10,857), (6,878), (2,898), (4,906) )
+   VERTEXES ( (8,855), (10,857), (4,906), (6,1226), (2,1311) )
   }
   TEXT  606, 0, 0
   {
@@ -872,52 +872,7 @@ PAGE ""
    NET 681
    VTX 856, 857
   }
-  VTX  878, 0, 0
-  {
-   COORD (1000,980)
-  }
-  VTX  879, 0, 0
-  {
-   COORD (460,980)
-  }
-  NET WIRE  880, 0, 0
-  WIRE  881, 0, 0
-  {
-   NET 880
-   VTX 878, 879
-  }
-  VTX  898, 0, 0
-  {
-   COORD (1000,900)
-  }
-  VTX  899, 0, 0
-  {
-   COORD (440,460)
-  }
   NET WIRE  900, 0, 0
-  VTX  901, 0, 0
-  {
-   COORD (600,900)
-  }
-  WIRE  902, 0, 0
-  {
-   NET 900
-   VTX 898, 901
-  }
-  VTX  903, 0, 0
-  {
-   COORD (600,460)
-  }
-  WIRE  904, 0, 0
-  {
-   NET 900
-   VTX 901, 903
-  }
-  WIRE  905, 0, 0
-  {
-   NET 900
-   VTX 903, 899
-  }
   VTX  906, 0, 0
   {
    COORD (1000,940)
@@ -949,66 +904,12 @@ PAGE ""
   WIRE  912, 0, 0
   {
    NET 908
-   VTX 909, 911
+   VTX 909, 1321
   }
   WIRE  913, 0, 0
   {
    NET 908
    VTX 911, 907
-  }
-  VTX  914, 0, 0
-  {
-   COORD (580,520)
-  }
-  WIRE  915, 0, 0
-  {
-   NET 908
-   VTX 911, 914
-  }
-  VTX  916, 0, 0
-  {
-   COORD (580,500)
-  }
-  WIRE  917, 0, 0
-  {
-   NET 908
-   VTX 914, 916
-  }
-  VTX  918, 0, 0
-  {
-   COORD (620,500)
-  }
-  WIRE  919, 0, 0
-  {
-   NET 908
-   VTX 916, 918
-  }
-  VTX  920, 0, 0
-  {
-   COORD (620,520)
-  }
-  WIRE  921, 0, 0
-  {
-   NET 908
-   VTX 918, 920
-  }
-  VTX  926, 0, 0
-  {
-   COORD (660,460)
-  }
-  WIRE  928, 0, 0
-  {
-   NET 900
-   VTX 903, 926
-  }
-  VTX  929, 0, 0
-  {
-   COORD (660,520)
-  }
-  WIRE  931, 0, 0
-  {
-   NET 908
-   VTX 920, 929
   }
   VTX  932, 0, 0
   {
@@ -1055,29 +956,6 @@ PAGE ""
    ALIGN 9
    MARGINS (1,1)
    PARENT 939
-  }
-  VTX  1003, 0, 0
-  {
-   COORD (660,540)
-  }
-  WIRE  1004, 0, 0
-  {
-   NET 908
-   VTX 929, 1003
-  }
-  VTX  1009, 0, 0
-  {
-   COORD (1080,540)
-  }
-  WIRE  1010, 0, 0
-  {
-   NET 940
-   VTX 933, 1009
-  }
-  WIRE  1011, 0, 0
-  {
-   NET 908
-   VTX 1003, 1009
   }
   NET BUS  1062, 0, 0
   {
@@ -1297,6 +1175,117 @@ PAGE ""
    MARGINS (1,1)
    PARENT 1096
   }
+  VTX  1226, 0, 0
+  {
+   COORD (1000,980)
+  }
+  VTX  1235, 0, 0
+  {
+   COORD (440,980)
+  }
+  NET WIRE  1237, 0, 0
+  WIRE  1238, 0, 0
+  {
+   NET 1237
+   VTX 1226, 1235
+  }
+  INSTANCE  1239, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="inv"
+    #LIBRARY="#builtin"
+    #REFERENCE="U10"
+    #SYMBOL="inv"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="ac5cc6ef-4d50-4143-add3-89b3bf3f7c20"
+   }
+   COORD (460,440)
+   VERTEXES ( (4,1316), (2,1330) )
+  }
+  NET WIRE  1287, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="clk_100"
+   }
+  }
+  VTX  1311, 0, 0
+  {
+   COORD (1000,900)
+  }
+  VTX  1313, 0, 0
+  {
+   COORD (640,900)
+  }
+  WIRE  1314, 0, 0
+  {
+   NET 900
+   VTX 1311, 1313
+  }
+  VTX  1316, 0, 0
+  {
+   COORD (580,460)
+  }
+  VTX  1317, 0, 0
+  {
+   COORD (640,460)
+  }
+  WIRE  1318, 0, 0
+  {
+   NET 900
+   VTX 1316, 1317
+  }
+  WIRE  1320, 0, 0
+  {
+   NET 900
+   VTX 1313, 1317
+  }
+  VTX  1321, 0, 0
+  {
+   COORD (480,620)
+  }
+  WIRE  1322, 0, 0
+  {
+   NET 908
+   VTX 911, 1321
+  }
+  VTX  1323, 0, 0
+  {
+   COORD (1080,620)
+  }
+  WIRE  1324, 0, 0
+  {
+   NET 908
+   VTX 1321, 1323
+  }
+  WIRE  1326, 0, 0
+  {
+   NET 940
+   VTX 933, 1323
+  }
+  VTX  1327, 0, 0
+  {
+   COORD (700,460)
+  }
+  WIRE  1328, 0, 0
+  {
+   NET 900
+   VTX 1317, 1327
+  }
+  VTX  1329, 0, 0
+  {
+   COORD (440,460)
+  }
+  VTX  1330, 0, 0
+  {
+   COORD (460,460)
+  }
+  NET WIRE  1331, 0, 0
+  WIRE  1332, 0, 0
+  {
+   NET 1331
+   VTX 1329, 1330
+  }
  }
  
 }
@@ -1322,7 +1311,7 @@ PAGE ""
  
  BODY
  {
-  TEXT  1106, 0, 0
+  TEXT  1333, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -1333,7 +1322,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,1,0,"Arial")
   }
-  TEXT  1107, 0, 0
+  TEXT  1334, 0, 0
   {
    PAGEALIGN 10
    TEXT "$CREATIONDATE"
@@ -1344,7 +1333,7 @@ PAGE ""
    FONT (12,0,0,700,0,1,0,"Arial")
    UPDATE 0
   }
-  TEXT  1108, 0, 0
+  TEXT  1335, 0, 0
   {
    PAGEALIGN 10
    TEXT "Title:"
@@ -1354,7 +1343,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,1,0,"Arial")
   }
-  TEXT  1109, 0, 0
+  TEXT  1336, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -1366,7 +1355,7 @@ PAGE ""
    FONT (12,0,0,700,0,1,0,"Arial")
    UPDATE 0
   }
-  TEXT  1110, 0, 0
+  TEXT  1337, 0, 0
   {
    PAGEALIGN 10
    TEXT 
@@ -1379,7 +1368,7 @@ PAGE ""
    FONT (12,0,0,700,0,1,0,"Arial")
    MULTILINE
   }
-  TEXT  1111, 0, 0
+  TEXT  1338, 0, 0
   {
    PAGEALIGN 10
    TEXT "Page:"
@@ -1389,7 +1378,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,1,0,"Arial")
   }
-  TEXT  1112, 0, 0
+  TEXT  1339, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -1401,7 +1390,7 @@ PAGE ""
    FONT (12,0,0,700,0,1,0,"Arial")
    UPDATE 0
   }
-  TEXT  1113, 0, 0
+  TEXT  1340, 0, 0
   {
    PAGEALIGN 10
    TEXT "Revision:"
@@ -1411,7 +1400,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,1,0,"Arial")
   }
-  TEXT  1114, 0, 0
+  TEXT  1341, 0, 0
   {
    PAGEALIGN 10
    TEXT "$Revision"
@@ -1422,7 +1411,7 @@ PAGE ""
    FONT (12,0,0,700,0,204,0,"Arial")
    UPDATE 0
   }
-  GROUP  1115, 0, 0
+  GROUP  1342, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1120,2001,1501)
@@ -1434,7 +1423,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1116, 0, 0
+  GROUP  1343, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1320,2001,1321)
@@ -1446,7 +1435,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1117, 0, 0
+  GROUP  1344, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1260,2001,1261)
@@ -1458,7 +1447,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1118, 0, 0
+  GROUP  1345, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1380,2001,1381)
@@ -1470,7 +1459,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1119, 0, 0
+  GROUP  1346, 0, 0
   {
    PAGEALIGN 10
    RECT (1120,1440,2001,1441)
@@ -1482,7 +1471,7 @@ PAGE ""
     FILL (1,(0,0,0),0)
    }
   }
-  GROUP  1120, 0, 0
+  GROUP  1347, 0, 0
   {
    PAGEALIGN 10
    RECT (1300,1120,1301,1261)
@@ -1493,7 +1482,7 @@ PAGE ""
     POINTS ( (0,0), (0,140) )
    }
   }
-  GROUP  1121, 0, 0
+  GROUP  1348, 0, 0
   {
    PAGEALIGN 10
    RECT (1300,1260,1301,1501)
@@ -1504,7 +1493,7 @@ PAGE ""
     POINTS ( (0,0), (0,240) )
    }
   }
-  BMPPICT  1122, 0, 0
+  BMPPICT  1349, 0, 0
   {
    PAGEALIGN 10
    RECT (1140,1180,1279,1225)

@@ -1,33 +1,65 @@
-timestamp=1744724615112
+timestamp=1744736631383
 
 [~A]
-ModifyID=18
+ModifyID=56
 Version=74
 
 [~MFT]
-0=3|0Stopwatch.mgf|4778|1308
-1=1|1Stopwatch.mgf|0|0
-3=1|3Stopwatch.mgf|0|0
+0=8|0Stopwatch.mgf|22893|13471
+1=1|1Stopwatch.mgf|22161|12849
+2=0|2Stopwatch.mgf|14625|6475
+3=2|3Stopwatch.mgf|4138|2322
+
+[bcd_counter]
+A/behavioral=21|../src/BCD_counter.vhd|20|1*8677
+BinI32/behavioral=3*1389
+I=0*9762
+I/behavioral=0*13001
+M=11|0|ve8|1744734660620|../src/BCD_counter.vhd|0*9165*0x7007bf958db40164071ba513ee33787384c18700|0*9675*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|0|ve8|1744734968906|../src/BCD_counter.vhd|0*12247*0xc77c261f6d76742d348385062a86a0da58ca96f1|0*12900*0x20116f55b147878295aeff36dce7fc50
+NSymbols/bcd_counter=NSymbols/BCD_counter 40|0|2*9430
+R=../src/BCD_counter.vhd|8
+Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|3ba94e6fd5db0fd0772d2be23d8a2cd5501d4f91aa39cd53a022e491c354ccc33777ebc4e791f15f0c093bb001076159
+Version/behavioral=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4dfb02d98978512a3d0bbf4ba3d28cbcf
 
 [controller]
-A/controller_arch=A/Controller_arch 23|../src/Controller.asf|10000|1*0
-BinI32/controller_arch=3*0
-I=0*3104
-I/controller_arch=I/Controller_arch 0*4778
-M=11|0|ve8|1744724588620|../compile/Controller.vhd|0*2625*0xc7ee1c280d9cd050103fc36fd0bfeaa090782af0|0*3015*0x23b75c12e3e89f2ef000564498faa8c2
-M/controller_arch=M/Controller_arch 21|0|ve8|1744724615074|../compile/Controller.vhd|0*3415*0x19394813741c7ca28a228e87d14201500259b4bb|0*4670*0x20116f55b147878295aeff36dce7fc50
+A/controller_arch=A/Controller_arch 23|../src/Controller.asf|10000|1*22161
+BinI32/controller_arch=3*4138
+I=0*3825
+I/controller_arch=I/Controller_arch 0*22893
+M=11|0|ve8|1744724588620|../compile/Controller.vhd|0*481*0xc7ee1c280d9cd050103fc36fd0bfeaa090782af0|0*871*0x23b75c12e3e89f2ef000564498faa8c2
+M/controller_arch=M/Controller_arch 21|0|ve8|1744736631366|../compile/Controller.vhd|0*21530*0x0fc11b330106825e91074ef51c25a09a22ff85f7|0*22785*0x20116f55b147878295aeff36dce7fc50
+NSymbols/controller=NSymbols/Controller 40|0|2*12382
 R=../compile/Controller.vhd|27
 Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|37559bb714d9790ed0d2b33a2227305569fc64f104d581d1d39b9b8592bd8636fad2f4635c698a0cdd76a3c43cc85902
-Version/controller_arch=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|cf4cc72ac261f03ef15f54ed283b7c05c9fa4d29c3f73bb93b3facadaab4ea77057e6b100d26dd910a7673e978f1b509
+Version/controller_arch=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|cf4cc72ac261f03ef15f54ed283b7c05c9fa4d29c3f73bb93b3facadaab4ea77eefa48a1c317944a01793fdd163b40d9
+
+[sevenseg]
+A/behavioral=21|../src/sevenseg.vhd|14|1*13348
+BinI32/behavioral=3*2361
+I=0*4654
+I/behavioral=0*16029
+M=11|0|ve8|1744732974721|../src/sevenseg.vhd|0*2323*0xebcc96eb5bbf0ae96c7691e452ce85681b428b1b|0*2655*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=21|0|ve8|1744735270031|../src/sevenseg.vhd|0*2736*0xa96bfaade022e95a7e2e67a8cd61697b4692fe99|0*3527*0x20116f55b147878295aeff36dce7fc50
+NSymbols/sevenseg=40|0|2*14625
+R=../src/sevenseg.vhd|7
+Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|61bfc9af7e9c1bf810ce1f48bf5ef19d8daf0fa33d45c70b25ec0f1d61b92b1fd40307a524a572e829e4a29b8935b726
+Version/behavioral=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4fcaecd5713bfbb2ad001ca3ee4cac9dd
 
 [stopwatch]
-I=0*700
-I/stopwatch=0*1163
-M=11|0|ve8|1744690923667|../compile/stopwatch.vhd|0*219*0xcaab079d6e71371b74ce6128645d14af50c3018f|0*613*0x23b75c12e3e89f2ef000564498faa8c2
+A/stopwatch=24|../src/stopwatch.bde|10000|1*18870
+BinI32/stopwatch=3*3922
+I=0*14057
+I/stopwatch=0*21214
+M=11|0|ve8|1744735253640|../compile/stopwatch.vhd|0*13576*0x311d78c898f01999593ed7e151a6bbf0c56fbd6f|0*13970*0x23b75c12e3e89f2ef000564498faa8c2
+M/stopwatch=21|0|ve8|1744736609886|../compile/stopwatch.vhd|0*19761*0xe440b67cc6b7d547b571ddef6ffc936fcd22a689|0*21114*0x20116f55b147878295aeff36dce7fc50
+NSymbols/stopwatch=40|0|2*3523
 R=../compile/stopwatch.vhd|24
-Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|80786ac4920b7015d0ea101411496889a26c989bfd142d4b45cb211f4178385a6285ee558144a6a07b8fccdaa5475b4f
-Version/stopwatch=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|80786ac4920b7015d0ea101411496889a26c989bfd142d4b45cb211f4178385a6285ee558144a6a07b8fccdaa5475b4f
+Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|80786ac4920b7015d0ea101411496889a26c989bfd142d4b45cb211f4178385a212d8279de05f36301671cacf29fdfcc
+Version/stopwatch=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|80786ac4920b7015d0ea101411496889a26c989bfd142d4b45cb211f4178385a183bd542fb7cbe62aca867e67bccd508
 
 [~U]
-controller=Controller 11|0*2422|
-stopwatch=11|0*0|
+bcd_counter=BCD_counter 11|0*8939||0x3
+controller=Controller 11|0*3622||0x3
+sevenseg=11|0*4463||0x3
+stopwatch=11|0*13355||0x3

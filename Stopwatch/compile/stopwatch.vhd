@@ -7,9 +7,9 @@
 --
 -------------------------------------------------------------------------------
 --
--- File        : c:\My_Designs\ECE441_final\Stopwatch\compile\stopwatch.vhd
--- Generated   : Tue Apr 15 00:22:03 2025
--- From        : c:\My_Designs\ECE441_final\Stopwatch\src\stopwatch.bde
+-- File        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\stopwatch.vhd
+-- Generated   : Tue Apr 15 13:03:29 2025
+-- From        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\stopwatch.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
 -------------------------------------------------------------------------------
@@ -23,18 +23,113 @@ use IEEE.std_logic_1164.all;
 
 entity stopwatch is
   port(
-       CLOCK_50 : in STD_LOGIC;
-       KEY0 : in STD_LOGIC;
-       KEY3 : in STD_LOGIC;
-       HEX0 : out STD_LOGIC_VECTOR(6 downto 0);
-       HEX1 : out STD_LOGIC_VECTOR(6 downto 0);
-       HEX2 : out STD_LOGIC_VECTOR(6 downto 0);
-       HEX3 : out STD_LOGIC_VECTOR(6 downto 0)
+       Key0 : in STD_LOGIC;
+       Clock_50 : in STD_LOGIC;
+       Key3 : in STD_LOGIC;
+       Hex0 : out STD_LOGIC_VECTOR(6 downto 0);
+       Hex1 : out STD_LOGIC_VECTOR(6 downto 0);
+       Hex2 : out STD_LOGIC_VECTOR(6 downto 0);
+       Hex3 : out STD_LOGIC_VECTOR(6 downto 0)
   );
 end stopwatch;
 
 architecture stopwatch of stopwatch is
 
+---- Component declarations -----
+
+component BCD_counter
+  port(
+       clock : in STD_LOGIC;
+       reset : in STD_LOGIC;
+       enable : in STD_LOGIC;
+       n0 : out STD_LOGIC_VECTOR(3 downto 0);
+       n1 : out STD_LOGIC_VECTOR(3 downto 0);
+       n2 : out STD_LOGIC_VECTOR(3 downto 0);
+       n3 : out STD_LOGIC_VECTOR(3 downto 0)
+  );
+end component;
+component Controller
+  port(
+       reset : in STD_LOGIC;
+       clock : in STD_LOGIC;
+       input : in STD_LOGIC;
+       brst : out STD_LOGIC;
+       bgo : out STD_LOGIC
+  );
+end component;
+component sevenseg
+  port(
+       a : in STD_LOGIC_VECTOR(3 downto 0);
+       y : out STD_LOGIC_VECTOR(6 downto 0)
+  );
+end component;
+
+---- Signal declarations used on the diagram ----
+
+signal clk_100 : STD_LOGIC;
+signal NET677 : STD_LOGIC;
+signal NET681 : STD_LOGIC;
+signal NET900 : STD_LOGIC;
+signal n0 : STD_LOGIC_VECTOR(3 downto 0);
+signal n1 : STD_LOGIC_VECTOR(3 downto 0);
+signal n2 : STD_LOGIC_VECTOR(3 downto 0);
+signal n3 : STD_LOGIC_VECTOR(3 downto 0);
+
 begin
+
+----  Component instantiations  ----
+
+U1 : Controller
+  port map(
+       reset => NET900,
+       clock => clk_100,
+       input => Key3,
+       brst => NET677,
+       bgo => NET681
+  );
+
+NET900 <= not(Key0);
+
+U2 : sevenseg
+  port map(
+       a => n0,
+       y => Hex0
+  );
+
+U3 : sevenseg
+  port map(
+       a => n1,
+       y => Hex1
+  );
+
+U4 : sevenseg
+  port map(
+       a => n2,
+       y => Hex2
+  );
+
+U5 : sevenseg
+  port map(
+       a => n3,
+       y => Hex3
+  );
+
+U6 : BCD_counter
+  port map(
+       clock => clk_100,
+       reset => NET677,
+       enable => NET681,
+       n0 => n0,
+       n1 => n1,
+       n2 => n2,
+       n3 => n3
+  );
+
+
+---- Terminal assignment ----
+
+    -- Inputs terminals
+	clk_100 <= Clock_50;
+
 
 end stopwatch;

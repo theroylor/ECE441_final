@@ -1,4 +1,9 @@
-18
+56
+~E 1 "../src/BCD_counter.vhd" 8 BCD_counter
+~A 1 "../src/BCD_counter.vhd" 20 behavioral
 ~E 1 "../compile/Controller.vhd" 27 Controller
 ~A 1 "../compile/Controller.vhd" 37 Controller_arch
+~E 1 "../src/sevenseg.vhd" 7 sevenseg
+~A 1 "../src/sevenseg.vhd" 14 behavioral
 ~E 1 "../compile/stopwatch.vhd" 24 stopwatch
+~A 1 "../compile/stopwatch.vhd" 36 stopwatch

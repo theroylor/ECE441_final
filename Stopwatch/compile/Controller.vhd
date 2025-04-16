@@ -7,9 +7,9 @@
 --
 -------------------------------------------------------------------------------
 --
--- File        : c:/My_Designs/ECE441_final/Stopwatch/compile/Controller.vhd
--- Generated   : Tue Apr 15 09:43:34 2025
--- From        : c:/My_Designs/ECE441_final/Stopwatch/src/Controller.asf
+-- File        : F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd
+-- Generated   : Tue Apr 15 13:03:50 2025
+-- From        : F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Controller.asf
 -- By          : Active-HDL 12 FSM Code Generator ver. 6.0
 --
 -------------------------------------------------------------------------------
@@ -78,30 +78,30 @@ begin
 		when S1 =>
 			brst <= '1';
 			case input is
-				when '0' =>
+				when '1' =>
 					NextState_Sreg0 <= S2;
 				when others =>
 					NextState_Sreg0 <= S1;
 			end case;
 		when S2 =>
-			bgo <= '1';
+			brst <= '1';
 			case input is
-				when '1' =>
+				when '0' =>
 					NextState_Sreg0 <= S3;
 				when others =>
 					NextState_Sreg0 <= S2;
 			end case;
 		when S3 =>
+			bgo <= '1';
 			case input is
-				when '0' =>
+				when '1' =>
 					NextState_Sreg0 <= S4;
 				when others =>
 					NextState_Sreg0 <= S3;
 			end case;
 		when S4 =>
-			brst <= '1';
 			case input is
-				when '1' =>
+				when '0' =>
 					NextState_Sreg0 <= S1;
 				when others =>
 					NextState_Sreg0 <= S4;
