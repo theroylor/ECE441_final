@@ -1,0 +1,133 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -3.127
+TNS   : -43.764
+
+Type  : Slow 1100mV 85C Model Setup 'Clock_50'
+Slack : -2.185
+TNS   : -61.187
+
+Type  : Slow 1100mV 85C Model Hold 'Clock_50'
+Slack : -3.356
+TNS   : -3.356
+
+Type  : Slow 1100mV 85C Model Hold 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -2.610
+TNS   : -36.519
+
+Type  : Slow 1100mV 85C Model Removal 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : 1.924
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Clock_50'
+Slack : -0.551
+TNS   : -17.253
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -0.394
+TNS   : -8.932
+
+Type  : Slow 1100mV 0C Model Setup 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -3.181
+TNS   : -44.513
+
+Type  : Slow 1100mV 0C Model Setup 'Clock_50'
+Slack : -2.206
+TNS   : -60.520
+
+Type  : Slow 1100mV 0C Model Hold 'Clock_50'
+Slack : -3.224
+TNS   : -3.224
+
+Type  : Slow 1100mV 0C Model Hold 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -2.739
+TNS   : -38.318
+
+Type  : Slow 1100mV 0C Model Removal 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : 2.062
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Clock_50'
+Slack : -0.560
+TNS   : -15.859
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -0.394
+TNS   : -9.149
+
+Type  : Fast 1100mV 85C Model Setup 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -1.347
+TNS   : -18.858
+
+Type  : Fast 1100mV 85C Model Setup 'Clock_50'
+Slack : -0.797
+TNS   : -22.125
+
+Type  : Fast 1100mV 85C Model Hold 'Clock_50'
+Slack : -1.993
+TNS   : -1.993
+
+Type  : Fast 1100mV 85C Model Hold 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -1.064
+TNS   : -14.882
+
+Type  : Fast 1100mV 85C Model Removal 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : 0.799
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Clock_50'
+Slack : -0.601
+TNS   : -9.079
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -0.034
+TNS   : -0.469
+
+Type  : Fast 1100mV 0C Model Setup 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -1.313
+TNS   : -18.382
+
+Type  : Fast 1100mV 0C Model Setup 'Clock_50'
+Slack : -0.753
+TNS   : -19.149
+
+Type  : Fast 1100mV 0C Model Hold 'Clock_50'
+Slack : -1.894
+TNS   : -1.894
+
+Type  : Fast 1100mV 0C Model Hold 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -1.072
+TNS   : -15.001
+
+Type  : Fast 1100mV 0C Model Removal 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : 0.826
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Clock_50'
+Slack : -0.617
+TNS   : -9.801
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Clock_Gen:U7|clk_div_gen:U1|out_clk'
+Slack : -0.005
+TNS   : -0.063
+
+------------------------------------------------------------

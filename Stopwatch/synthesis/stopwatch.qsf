@@ -122,7 +122,7 @@ set_global_assignment -name ALLOW_REGISTER_MERGING ON
 set_global_assignment -name ALLOW_REGISTER_DUPLICATION ON
 set_global_assignment -name ALLOW_REGISTER_RETIMING ON
 set_global_assignment -name ENABLE_REDUCED_MEMORY_MODE OFF
-set_global_assignment -name USER_LIBRARIES "F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src"
+set_global_assignment -name USER_LIBRARIES "F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src;F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/Mega"
 set_global_assignment -name VHDL_FILE "./../compile/stopwatch.vhd"
 set_global_assignment -name VHDL_FILE "./../src/sevenseg.vhd"
 set_global_assignment -name VHDL_FILE "./../src/BCD_counter.vhd"
@@ -130,40 +130,41 @@ set_global_assignment -name VHDL_FILE "./../compile/Controller.vhd"
 set_global_assignment -name VHDL_FILE "./../compile/Clock_Gen.vhd"
 set_global_assignment -name VHDL_FILE "./../src/clk_div_gen.vhd"
 set_global_assignment -name TOP_LEVEL_ENTITY stopwatch
+set_location_assignment PIN_AF14 -to Clock_50
+set_location_assignment PIN_AH18 -to Hex0[6]
+set_location_assignment PIN_AG18 -to Hex0[5]
+set_location_assignment PIN_AH17 -to Hex0[4]
+set_location_assignment PIN_AG16 -to Hex0[3]
+set_location_assignment PIN_AG17 -to Hex0[2]
+set_location_assignment PIN_V18 -to Hex0[1]
+set_location_assignment PIN_W17 -to Hex0[0]
+set_location_assignment PIN_V17 -to Hex1[6]
+set_location_assignment PIN_AE17 -to Hex1[5]
+set_location_assignment PIN_AE18 -to Hex1[4]
+set_location_assignment PIN_AD17 -to Hex1[3]
+set_location_assignment PIN_AE16 -to Hex1[2]
+set_location_assignment PIN_V16 -to Hex1[1]
+set_location_assignment PIN_AF16 -to Hex1[0]
+set_location_assignment PIN_W16 -to Hex2[6]
+set_location_assignment PIN_AF18 -to Hex2[5]
+set_location_assignment PIN_Y18 -to Hex2[4]
+set_location_assignment PIN_Y17 -to Hex2[3]
+set_location_assignment PIN_AA18 -to Hex2[2]
+set_location_assignment PIN_AB17 -to Hex2[1]
+set_location_assignment PIN_AA21 -to Hex2[0]
+set_location_assignment PIN_AD20 -to Hex3[6]
+set_location_assignment PIN_AA19 -to Hex3[5]
+set_location_assignment PIN_AC20 -to Hex3[4]
+set_location_assignment PIN_AA20 -to Hex3[3]
+set_location_assignment PIN_AD19 -to Hex3[2]
+set_location_assignment PIN_W19 -to Hex3[1]
+set_location_assignment PIN_Y19 -to Hex3[0]
+set_location_assignment PIN_AJ4 -to Key0
+set_location_assignment PIN_AA15 -to Key3
+
 
 set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_location_assignment PIN_AF14 -to Clock_50
-set_location_assignment PIN_W17 -to Hex0[6]
-set_location_assignment PIN_V18 -to Hex0[5]
-set_location_assignment PIN_AG17 -to Hex0[4]
-set_location_assignment PIN_AG16 -to Hex0[3]
-set_location_assignment PIN_AH17 -to Hex0[2]
-set_location_assignment PIN_AG18 -to Hex0[1]
-set_location_assignment PIN_AH18 -to Hex0[0]
-set_location_assignment PIN_AF16 -to Hex1[6]
-set_location_assignment PIN_V16 -to Hex1[5]
-set_location_assignment PIN_AE16 -to Hex1[4]
-set_location_assignment PIN_AD17 -to Hex1[3]
-set_location_assignment PIN_AE18 -to Hex1[2]
-set_location_assignment PIN_AE17 -to Hex1[1]
-set_location_assignment PIN_V17 -to Hex1[0]
-set_location_assignment PIN_AA21 -to Hex2[6]
-set_location_assignment PIN_AB17 -to Hex2[5]
-set_location_assignment PIN_AA18 -to Hex2[4]
-set_location_assignment PIN_Y17 -to Hex2[3]
-set_location_assignment PIN_Y18 -to Hex2[2]
-set_location_assignment PIN_AF18 -to Hex2[1]
-set_location_assignment PIN_W16 -to Hex2[0]
-set_location_assignment PIN_Y19 -to Hex3[6]
-set_location_assignment PIN_W19 -to Hex3[5]
-set_location_assignment PIN_AD19 -to Hex3[4]
-set_location_assignment PIN_AA20 -to Hex3[3]
-set_location_assignment PIN_AC20 -to Hex3[2]
-set_location_assignment PIN_AA19 -to Hex3[1]
-set_location_assignment PIN_AD20 -to Hex3[0]
-set_location_assignment PIN_AJ4 -to Key0
-set_location_assignment PIN_AA15 -to Key3

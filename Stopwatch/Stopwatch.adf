@@ -36,7 +36,7 @@ fileopenfolder=F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\synthesis
 [IMPLEMENTATION]
 UCF=
 DEVICE_TECHNOLOGY_MIGRATION_LIST=
-LAST_RUN=1744923041
+LAST_RUN=1744923771
 
 [SpecTracer]
 WindowVisible=0
@@ -58,15 +58,15 @@ SERVERFARM_INCLUDE_INPUT_FILES=*.*
 SERVERFARM_EXCLUDE_INPUT_FILES=
 OVERWRITE_PROJECT=1
 AUTO_CLOSE=0
-QSF_FILE_SELECTION=
+QSF_FILE_SELECTION=synthesis/stopwatch.qsf
 CHECK_PROJECT_OUTPUT_DIRECTORY=0
 CHECK_OPTIMIZE_HOLD_TIMING=1
 USE_SIGNALTAP_FILE=
 ENABLE_LOGIC_ANALYZER_INTERFACE=0
 USE_LOGIC_ANALYZER_INTERFACE_FILE=
 OLD_FAMILY=Quartus CycloneV
-CHECK_IMPORT_PIN_ASSIGNMENTS=0
-IMPORT_PIN_ASSIGNMENTS=
+CHECK_IMPORT_PIN_ASSIGNMENTS=1
+IMPORT_PIN_ASSIGNMENTS=.\synthesis\atom_netlists\stopwatch.qsf
 CHECK_GENERATE_FPGA_EXCHANGE_FILE=0
 GENERATE_FPGA_EXCHANGE_FILE=.\symbols\fpgaxchange
 BTM_IO_STANDARD=1.2V
@@ -75,7 +75,7 @@ OUTPUT_IO_TIMING_NEAR_END_VMEAS_RISE=Half Signal Swing
 OUTPUT_IO_TIMING_NEAR_END_VMEAS_FALL=Half Signal Swing
 OUTPUT_IO_TIMING_FAR_END_VMEAS_RISE=Half Signal Swing
 OUTPUT_IO_TIMING_FAR_END_VMEAS_FALL=Half Signal Swing
-LAST_RUN=1744923041
+LAST_RUN=1744923771
 
 [Groups]
 
@@ -96,13 +96,14 @@ LAST_RUN=1744923041
 .\src\clk_div_gen.vhd=VHDL Source Code
 .\synthesis\pll.cmp=VHDL SOURCE CODE
 .\compile\stopwatch.vhd=VHDL Source Code
+.\compile\Clock_Gen.vhd=VHDL Source Code
 
 
 [file_out:/Controller.asf]
 /..\compile\Controller.vhd=-1
 
-[file_out:/Clock_Gen.bde]
-/..\compile\Clock_Gen.vhd=-1
 
 [file_out:/stopwatch.bde]
 /..\compile\stopwatch.vhd=-1
+[file_out:/Clock_Gen.bde]
+/..\compile\Clock_Gen.vhd=-1

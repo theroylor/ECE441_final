@@ -40,7 +40,7 @@ end clk_div_gen;
 --}} End of automatically maintained section
 
 architecture behavior of clk_div_gen is
-constant max_count : integer := in_hz / out_hz / 2 - 1;
+constant max_count : integer := in_hz / out_hz / 2 -1;
 signal count : integer range 0 to max_count; 
 signal out_clk : std_logic := '0';
 
@@ -52,11 +52,14 @@ begin
 	begin
 		if (reset = '0') then  
 			out_clk <= '0';
-		elsif (count < max_count) then
-			count <= count + 1;
-		else
 			count <= 0;
-			out_clk <= not out_clk;
+		elsif (clock'event and clock = '1') then 
+			if (count < max_count) then
+				count <= count + 1;
+			else
+				count <= 0;
+				out_clk <= not out_clk;
+			end if;
 		end if;
 	end process;
 

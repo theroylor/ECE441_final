@@ -1,4 +1,4 @@
-75
+98
 ~E 1 "../src/BCD_counter.vhd" 8 BCD_counter
 ~A 1 "../src/BCD_counter.vhd" 20 behavioral
 ~E 1 "../src/clk_div_gen.vhd" 28 clk_div_gen
