@@ -7,3 +7,4 @@
 .\src\TestBench\stopwatch_TB.vhd
 .\src\TestBench\controller_TB.vhd
 .\src\TestBench\bcd_counter_TB.vhd
+.\synthesis\simulation\activehdl\stopwatch.vho

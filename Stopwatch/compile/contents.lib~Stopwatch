@@ -1,4 +1,4 @@
-230
+232
 ~E 1 "../src/BCD_counter.vhd" 8 BCD_counter
 ~A 1 "../src/BCD_counter.vhd" 20 behavioral
 ~E 1 "../src/Clock_Div_Gen.vhd" 7 Clock_Div_Gen

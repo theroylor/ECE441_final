@@ -1,5 +1,5 @@
 set_global_assignment -name FAMILY "Cyclone V"
-set_global_assignment -name DEVICE AUTO
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
 set_global_assignment -name TOP_LEVEL_ENTITY stopwatch
 set_global_assignment -name SMART_RECOMPILE OFF
 set_global_assignment -name SAVE_DISK_SPACE ON

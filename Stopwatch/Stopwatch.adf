@@ -9,6 +9,7 @@ compile=stopwatch
 
 [Library]
 Stopwatch=.\Stopwatch\Stopwatch.lib
+Stopwatch_timing=.\Stopwatch_timing\Stopwatch_timing.lib
 
 [$LibMap$]
 Stopwatch=.
@@ -24,19 +25,20 @@ ON_SERVERFARM_SYNTH=0
 ON_SERVERFARM_IMPL=0
 ON_SERVERFARM_SIM=0
 FUNC_LIB=Stopwatch
-SYNTH_STATUS=errors
+SYNTH_STATUS=warnings
 IMPL_TOOL=
 SYNTH_TOOL=MV_QUARTUS_SYNTHESIS201
 CSYNTH_TOOL=
 PHYSSYNTH_TOOL=
 FAMILY=Quartus CycloneV
-IMPL_STATUS=errors
+IMPL_STATUS=warnings
 VerilogDirsChanged=0
+TIM_LIB=Stopwatch_timing
 
 [IMPLEMENTATION]
 UCF=
 DEVICE_TECHNOLOGY_MIGRATION_LIST=
-LAST_RUN=1744914469
+LAST_RUN=1744915448
 
 [SpecTracer]
 WindowVisible=0
@@ -48,11 +50,12 @@ Selected=
 
 [Groups]
 TestBench=1
+timing=1
 
 [SYNTHESIS]
 FAMILY=Quartus CycloneV
-DEVICE=AUTO
-SPEED=ANY
+DEVICE=5CSXFC6D6F31C
+SPEED=6
 TOPLEVEL=stopwatch
 JOB_DESCRIPTION=SynthesisTask
 JOB_SFM_RESOURCE=
@@ -78,7 +81,11 @@ OUTPUT_IO_TIMING_NEAR_END_VMEAS_RISE=Half Signal Swing
 OUTPUT_IO_TIMING_NEAR_END_VMEAS_FALL=Half Signal Swing
 OUTPUT_IO_TIMING_FAR_END_VMEAS_RISE=Half Signal Swing
 OUTPUT_IO_TIMING_FAR_END_VMEAS_FALL=Half Signal Swing
-LAST_RUN=1744914469
+LAST_RUN=1744915448
+
+[SIM.TIME]
+TOPLEVEL=stopwatch
+SDF_PATH=
 
 [Files]
 /stopwatch.bde=-1
@@ -93,6 +100,7 @@ TestBench/controller_TB.vhd=-1
 TestBench/controller_TB_runtest.do=-1
 TestBench/bcd_counter_TB.vhd=-1
 TestBench/bcd_counter_TB_runtest.do=-1
+timing/..\..\synthesis\simulation\activehdl\stopwatch.vho=-1
 
 [Files.Data]
 .\src\stopwatch.bde=Block Diagram
@@ -107,6 +115,7 @@ TestBench/bcd_counter_TB_runtest.do=-1
 .\src\TestBench\controller_TB_runtest.do=Macro
 .\src\TestBench\bcd_counter_TB.vhd=VHDL Test Bench
 .\src\TestBench\bcd_counter_TB_runtest.do=Macro
+.\synthesis\simulation\activehdl\stopwatch.vho=VHDL SOURCE CODE
 
 [file_out:/stopwatch.bde]
 /..\compile\stopwatch.vhd=-1
