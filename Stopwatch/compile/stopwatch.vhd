@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\stopwatch.vhd
--- Generated   : Thu Apr 17 16:49:20 2025
+-- Generated   : Thu Apr 17 17:00:13 2025
 -- From        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\stopwatch.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -74,8 +74,11 @@ end component;
 ---- Signal declarations used on the diagram ----
 
 signal clk_100 : STD_LOGIC;
-signal NET677 : STD_LOGIC;
-signal NET681 : STD_LOGIC;
+signal clock : STD_LOGIC;
+signal input : STD_LOGIC;
+signal NET1453 : STD_LOGIC;
+signal NET1457 : STD_LOGIC;
+signal reset : STD_LOGIC;
 signal n0 : STD_LOGIC_VECTOR(3 downto 0);
 signal n1 : STD_LOGIC_VECTOR(3 downto 0);
 signal n2 : STD_LOGIC_VECTOR(3 downto 0);
@@ -87,11 +90,11 @@ begin
 
 U1 : Controller
   port map(
-       reset => Key0,
-       clock => clk_100,
-       input => Key3,
-       brst => NET677,
-       bgo => NET681
+       reset => reset,
+       clock => clock,
+       input => input,
+       brst => NET1453,
+       bgo => NET1457
   );
 
 U2 : sevenseg
@@ -121,8 +124,8 @@ U5 : sevenseg
 U6 : BCD_counter
   port map(
        clock => clk_100,
-       reset => NET677,
-       enable => NET681,
+       reset => NET1453,
+       enable => NET1457,
        n0 => n0,
        n1 => n1,
        n2 => n2,
@@ -131,8 +134,8 @@ U6 : BCD_counter
 
 U7 : Clock_Gen
   port map(
-       reset => Key0,
-       clock => clk_100,
+       reset => reset,
+       clock => clock,
        clk_100 => clk_100
   );
 
@@ -140,7 +143,9 @@ U7 : Clock_Gen
 ---- Terminal assignment ----
 
     -- Inputs terminals
-	clk_100 <= Clock_50;
+	clock <= Clock_50;
+	reset <= Key0;
+	input <= Key3;
 
 
 end stopwatch;

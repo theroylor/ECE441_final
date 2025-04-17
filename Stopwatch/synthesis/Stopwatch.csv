@@ -1,0 +1,53 @@
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# File: F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\synthesis\Stopwatch.csv
+# Generated on: Thu Apr 17 17:01:02 2025
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage,Strict Preservation
+Clock_50,Input,PIN_AF14,3B,B3B_N0,,,,,,,,,,,,,,
+Hex0[6],Output,PIN_W17,4A,B4A_N0,,,,,,,,,,,,,,
+Hex0[5],Output,PIN_V18,4A,B4A_N0,,,,,,,,,,,,,,
+Hex0[4],Output,PIN_AG17,4A,B4A_N0,,,,,,,,,,,,,,
+Hex0[3],Output,PIN_AG16,4A,B4A_N0,,,,,,,,,,,,,,
+Hex0[2],Output,PIN_AH17,4A,B4A_N0,,,,,,,,,,,,,,
+Hex0[1],Output,PIN_AG18,4A,B4A_N0,,,,,,,,,,,,,,
+Hex0[0],Output,PIN_AH18,4A,B4A_N0,,,,,,,,,,,,,,
+Hex1[6],Output,PIN_AF16,4A,B4A_N0,,,,,,,,,,,,,,
+Hex1[5],Output,PIN_V16,4A,B4A_N0,,,,,,,,,,,,,,
+Hex1[4],Output,PIN_AE16,4A,B4A_N0,,,,,,,,,,,,,,
+Hex1[3],Output,PIN_AD17,4A,B4A_N0,,,,,,,,,,,,,,
+Hex1[2],Output,PIN_AE18,4A,B4A_N0,,,,,,,,,,,,,,
+Hex1[1],Output,PIN_AE17,4A,B4A_N0,,,,,,,,,,,,,,
+Hex1[0],Output,PIN_V17,4A,B4A_N0,,,,,,,,,,,,,,
+Hex2[6],Output,PIN_AA21,4A,B4A_N0,,,,,,,,,,,,,,
+Hex2[5],Output,PIN_AB17,4A,B4A_N0,,,,,,,,,,,,,,
+Hex2[4],Output,PIN_AA18,4A,B4A_N0,,,,,,,,,,,,,,
+Hex2[3],Output,PIN_Y17,4A,B4A_N0,,,,,,,,,,,,,,
+Hex2[2],Output,PIN_Y18,4A,B4A_N0,,,,,,,,,,,,,,
+Hex2[1],Output,PIN_AF18,4A,B4A_N0,,,,,,,,,,,,,,
+Hex2[0],Output,PIN_W16,4A,B4A_N0,,,,,,,,,,,,,,
+Hex3[6],Output,PIN_Y19,4A,B4A_N0,,,,,,,,,,,,,,
+Hex3[5],Output,PIN_W19,4A,B4A_N0,,,,,,,,,,,,,,
+Hex3[4],Output,PIN_AD19,4A,B4A_N0,,,,,,,,,,,,,,
+Hex3[3],Output,PIN_AA20,4A,B4A_N0,,,,,,,,,,,,,,
+Hex3[2],Output,PIN_AC20,4A,B4A_N0,,,,,,,,,,,,,,
+Hex3[1],Output,PIN_AA19,4A,B4A_N0,,,,,,,,,,,,,,
+Hex3[0],Output,PIN_AD20,4A,B4A_N0,,,,,,,,,,,,,,
+Key0,Input,PIN_AJ4,3B,B3B_N0,,,,,,,,,,,,,,
+Key3,Input,PIN_AA15,3B,B3B_N0,,,,,,,,,,,,,,
