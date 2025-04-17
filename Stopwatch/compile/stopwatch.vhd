@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\stopwatch.vhd
--- Generated   : Tue Apr 15 13:03:29 2025
+-- Generated   : Thu Apr 17 16:49:20 2025
 -- From        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\stopwatch.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -48,6 +48,13 @@ component BCD_counter
        n3 : out STD_LOGIC_VECTOR(3 downto 0)
   );
 end component;
+component Clock_Gen
+  port(
+       reset : in STD_LOGIC;
+       clock : in STD_LOGIC;
+       clk_100 : out STD_LOGIC
+  );
+end component;
 component Controller
   port(
        reset : in STD_LOGIC;
@@ -69,7 +76,6 @@ end component;
 signal clk_100 : STD_LOGIC;
 signal NET677 : STD_LOGIC;
 signal NET681 : STD_LOGIC;
-signal NET900 : STD_LOGIC;
 signal n0 : STD_LOGIC_VECTOR(3 downto 0);
 signal n1 : STD_LOGIC_VECTOR(3 downto 0);
 signal n2 : STD_LOGIC_VECTOR(3 downto 0);
@@ -81,14 +87,12 @@ begin
 
 U1 : Controller
   port map(
-       reset => NET900,
+       reset => Key0,
        clock => clk_100,
        input => Key3,
        brst => NET677,
        bgo => NET681
   );
-
-NET900 <= not(Key0);
 
 U2 : sevenseg
   port map(
@@ -123,6 +127,13 @@ U6 : BCD_counter
        n1 => n1,
        n2 => n2,
        n3 => n3
+  );
+
+U7 : Clock_Gen
+  port map(
+       reset => Key0,
+       clock => clk_100,
+       clk_100 => clk_100
   );
 
 

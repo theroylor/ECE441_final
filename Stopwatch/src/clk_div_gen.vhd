@@ -28,7 +28,7 @@ use IEEE.std_logic_1164.all;
 entity clk_div_gen is  
 	generic(
 		in_hz : integer := 50E6;
-		out_hz : integer := 100;
+		out_hz : integer := 100
 	);
 	 port(
 		 reset : in STD_LOGIC;

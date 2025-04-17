@@ -18,7 +18,7 @@ entity BCD_counter is
 end BCD_counter; 
 
 architecture behavioral of BCD_counter is	 
-constant max_count = 10E3 - 1;
+constant max_count : integer := 10E3 - 1;
 signal count : integer range 0 to max_count;
 begin
 count_process:process(clock,reset,enable)	

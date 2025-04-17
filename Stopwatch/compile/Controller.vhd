@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd
--- Generated   : Tue Apr 15 13:03:50 2025
+-- Generated   : Thu Apr 17 16:48:40 2025
 -- From        : F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Controller.asf
 -- By          : Active-HDL 12 FSM Code Generator ver. 6.0
 --
@@ -119,7 +119,11 @@ end process;
 Sreg0_CurrentState: process (clock)
 begin
 	if clock'event and clock = '1' then
-		Sreg0 <= NextState_Sreg0;
+		if reset = '0' then
+			Sreg0 <= S1;
+		else
+			Sreg0 <= NextState_Sreg0;
+		end if;
 	end if;
 end process;
 

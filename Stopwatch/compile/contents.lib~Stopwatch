@@ -1,6 +1,10 @@
-56
+73
 ~E 1 "../src/BCD_counter.vhd" 8 BCD_counter
 ~A 1 "../src/BCD_counter.vhd" 20 behavioral
+~E 1 "../src/clk_div_gen.vhd" 28 clk_div_gen
+~A 1 "../src/clk_div_gen.vhd" 42 behavior
+~E 1 "../compile/Clock_Gen.vhd" 24 Clock_Gen
+~A 1 "../compile/Clock_Gen.vhd" 32 Clock_Gen
 ~E 1 "../compile/Controller.vhd" 27 Controller
 ~A 1 "../compile/Controller.vhd" 37 Controller_arch
 ~E 1 "../src/sevenseg.vhd" 7 sevenseg

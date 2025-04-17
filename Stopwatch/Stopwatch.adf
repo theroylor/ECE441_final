@@ -31,7 +31,7 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=stopwatch|stopwatch|0  
+HierarchyInformation=stopwatch|stopwatch|0
 ShowHide=ShowTopLevel
 Selected=
 
@@ -40,16 +40,25 @@ Selected=
 /sevenseg.vhd=-1
 /BCD_counter.vhd=-1
 /Controller.asf=-1
+/Clock_Gen.bde=-1
+/clk_div_gen.vhd=-1
 
 [Files.Data]
 .\src\stopwatch.bde=Block Diagram
 .\src\sevenseg.vhd=VHDL Source Code
 .\src\BCD_counter.vhd=VHDL Source Code
 .\src\Controller.asf=State Diagram
+.\src\Clock_Gen.bde=Block Diagram
+.\src\clk_div_gen.vhd=VHDL Source Code
+.\compile\Clock_Gen.vhd=VHDL Source Code
+.\compile\Controller.vhd=VHDL Source Code
+.\compile\stopwatch.vhd=VHDL Source Code
 
-[file_out:/stopwatch.bde]
-/..\compile\stopwatch.vhd=-1
 
+
+[file_out:/Clock_Gen.bde]
+/..\compile\Clock_Gen.vhd=-1
 [file_out:/Controller.asf]
 /..\compile\Controller.vhd=-1
-
+[file_out:/stopwatch.bde]
+/..\compile\stopwatch.vhd=-1

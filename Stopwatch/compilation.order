@@ -2,3 +2,5 @@
 .\src\sevenseg.vhd
 .\src\BCD_counter.vhd
 .\src\Controller.asf
+.\src\Clock_Gen.bde
+.\src\clk_div_gen.vhd
