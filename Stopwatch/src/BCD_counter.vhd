@@ -17,18 +17,19 @@ entity BCD_counter is
 );
 end BCD_counter; 
 
-architecture behavioral of BCD_counter is
-signal count : integer range 0 to 10E3;
+architecture behavioral of BCD_counter is	 
+constant max_count = 10E3 - 1;
+signal count : integer range 0 to max_count;
 begin
 count_process:process(clock,reset,enable)	
 begin
 if reset = '1' then
 	count <= 0;
 elsif clock = '1' and clock'event and enable = '1' then
-	if count = 10E3 then
-		count <= 0;
+	if count < max_count then
+		count <= count +1;
 	else
-	count <= count +1;
+		count <= 0;
 	end if;
 end if;
 end process;
