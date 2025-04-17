@@ -78,6 +78,7 @@ OUTPUT_IO_TIMING_FAR_END_VMEAS_FALL=Half Signal Swing
 LAST_RUN=1744923771
 
 [Groups]
+TestBench=1
 
 [Files]
 /stopwatch.bde=-1
@@ -86,6 +87,12 @@ LAST_RUN=1744923771
 /Controller.asf=-1
 /Clock_Gen.bde=-1
 /clk_div_gen.vhd=-1
+TestBench/bcd_counter_TB.vhd=-1
+TestBench/bcd_counter_TB_runtest.do=-1
+TestBench/controller_TB.vhd=-1
+TestBench/controller_TB_runtest.do=-1
+TestBench/stopwatch_TB.vhd=-1
+TestBench/stopwatch_TB_runtest.do=-1
 
 [Files.Data]
 .\src\stopwatch.bde=Block Diagram
@@ -94,15 +101,20 @@ LAST_RUN=1744923771
 .\src\Controller.asf=State Diagram
 .\src\Clock_Gen.bde=Block Diagram
 .\src\clk_div_gen.vhd=VHDL Source Code
-.\synthesis\pll.cmp=VHDL SOURCE CODE
-.\compile\stopwatch.vhd=VHDL Source Code
+.\src\TestBench\bcd_counter_TB.vhd=VHDL Test Bench
+.\src\TestBench\bcd_counter_TB_runtest.do=Macro
+.\src\TestBench\controller_TB.vhd=VHDL Test Bench
+.\src\TestBench\controller_TB_runtest.do=Macro
+.\src\TestBench\stopwatch_TB.vhd=VHDL Test Bench
+.\src\TestBench\stopwatch_TB_runtest.do=Macro
 .\compile\Clock_Gen.vhd=VHDL Source Code
+.\compile\stopwatch.vhd=VHDL Source Code
+.\compile\Controller.vhd=VHDL Source Code
+
 
 
 [file_out:/Controller.asf]
 /..\compile\Controller.vhd=-1
-
-
 [file_out:/stopwatch.bde]
 /..\compile\stopwatch.vhd=-1
 [file_out:/Clock_Gen.bde]

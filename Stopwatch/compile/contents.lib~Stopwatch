@@ -1,13 +1,22 @@
-98
+118
 ~E 1 "../src/BCD_counter.vhd" 8 BCD_counter
 ~A 1 "../src/BCD_counter.vhd" 20 behavioral
+~E 1 "../src/TestBench/bcd_counter_TB.vhd" 10 bcd_counter_tb
+~A 1 "../src/TestBench/bcd_counter_TB.vhd" 13 TB_ARCHITECTURE
 ~E 1 "../src/clk_div_gen.vhd" 28 clk_div_gen
 ~A 1 "../src/clk_div_gen.vhd" 42 behavior
 ~E 1 "../compile/Clock_Gen.vhd" 24 Clock_Gen
 ~A 1 "../compile/Clock_Gen.vhd" 32 Clock_Gen
 ~E 1 "../compile/Controller.vhd" 27 Controller
 ~A 1 "../compile/Controller.vhd" 37 Controller_arch
+~E 1 "../src/TestBench/controller_TB.vhd" 9 controller_tb
+~A 1 "../src/TestBench/controller_TB.vhd" 12 TB_ARCHITECTURE
 ~E 1 "../src/sevenseg.vhd" 7 sevenseg
 ~A 1 "../src/sevenseg.vhd" 14 behavioral
 ~E 1 "../compile/stopwatch.vhd" 24 stopwatch
 ~A 1 "../compile/stopwatch.vhd" 36 stopwatch
+~E 1 "../src/TestBench/stopwatch_TB.vhd" 6 stopwatch_tb
+~A 1 "../src/TestBench/stopwatch_TB.vhd" 9 TB_ARCHITECTURE
+~C 1 "../src/TestBench/bcd_counter_TB.vhd" 73 testbench_for_bcd_counter
+~C 1 "../src/TestBench/controller_TB.vhd" 68 testbench_for_controller
+~C 1 "../src/TestBench/stopwatch_TB.vhd" 73 testbench_for_stopwatch

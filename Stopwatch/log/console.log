@@ -1,21 +1,52 @@
 # ELBREAD: Elaboration process.
-# ELBREAD: Error: Architecture 'stopwatch' of entity 'stopwatch' not found in library 'stopwatch'.
+# ELBREAD: Error: Architecture 'behavior' of entity 'clk_div_gen' not found in library 'stopwatch'.
 # ELBREAD: Error: Elaboration process completed with errors.
 # Design: Error: Elaboration failed
-acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/clk_div_gen.vhd
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/BCD_counter.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clk_div_gen.vhd
-# Compile Entity "clk_div_gen"
-# Error: COMP96_0018: clk_div_gen.vhd : (32, 2): Identifier expected.
-# Compile Architecture "behavior" of Entity "clk_div_gen"
-# Error: COMP96_0056: clk_div_gen.vhd : (42, 1): Cannot find referenced entity declaration "clk_div_gen".
-# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/clk_div_gen.vhd
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd
+# Compile Entity "BCD_counter"
+# Compile Architecture "behavioral" of Entity "BCD_counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/compile/Controller.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clk_div_gen.vhd
-# Compile Entity "clk_div_gen"
-# Compile Architecture "behavior" of Entity "clk_div_gen"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd
+# Compile Entity "Controller"
+# Compile Architecture "Controller_arch" of Entity "Controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/compile/stopwatch.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd
+# Compile Entity "stopwatch"
+# Compile Architecture "stopwatch" of Entity "stopwatch"
 # Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/stopwatch_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/stopwatch_TB.vhd
+# Compile Entity "stopwatch_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "stopwatch_tb"
+# Compile Configuration "TESTBENCH_FOR_stopwatch"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/controller_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/controller_TB.vhd
+# Compile Entity "controller_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "controller_tb"
+# Compile Configuration "TESTBENCH_FOR_controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/TestBench/bcd_counter_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/TestBench/bcd_counter_TB.vhd
+# Compile Entity "bcd_counter_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "bcd_counter_tb"
+# Compile Configuration "TESTBENCH_FOR_bcd_counter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/clk_div_gen.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clk_div_gen.vhd
+# Compile Entity "clk_div_gen"
+# Compile Architecture "behavior" of Entity "clk_div_gen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
 acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.bde
 # DRC: Checking file 'F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Clock_Gen.bde'.
 # DRC: Clock_Gen.bde - 0 error(s), 0 warning(s)
@@ -27,32 +58,17 @@ acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Clock_Gen.bde
 # File: ./../compile/Clock_Gen.vhd
 # Compile Entity "Clock_Gen"
 # Compile Architecture "Clock_Gen" of Entity "Clock_Gen"
-# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
-acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/Controller.asf
-# Generating "F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\Controller.vhd" from "F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\Controller.asf"
-# Loading State Diagram data...
-# Synthesis attributes will be generated for "Synopsys FPGA Express"
-# Warning: FSM2HDL_4089 Controller.asf : Default value and reset assignment set for "brst" output port or signal.
-# Generating interface file...
-# HDL code generation completed. 0 error(s), 1 warning(s)
-# Double-click on error/warning line to see the source of error/warning.
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/compile/Clock_Gen.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd
-# Compile Entity "Controller"
-# Compile Architecture "Controller_arch" of Entity "Controller"
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Clock_Gen.vhd
+# Compile Entity "Clock_Gen"
+# Compile Architecture "Clock_Gen" of Entity "Clock_Gen"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/sevenseg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/sevenseg.vhd
+# Compile Entity "sevenseg"
+# Compile Architecture "behavioral" of Entity "sevenseg"
 # Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/BCD_counter.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd
-# Compile Entity "BCD_counter"
-# Compile Architecture "behavioral" of Entity "BCD_counter"
-# Error: COMP96_0015: BCD_counter.vhd : (21, 20): ':' expected.
-# Error: COMP96_0018: BCD_counter.vhd : (21, 22): Identifier expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work Stopwatch -2002  $dsn/src/BCD_counter.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd
-# Compile Entity "BCD_counter"
-# Compile Architecture "behavioral" of Entity "BCD_counter"
-# Error: COMP96_0015: BCD_counter.vhd : (21, 20): ':' expected.
-# Error: COMP96_0018: B
+acom

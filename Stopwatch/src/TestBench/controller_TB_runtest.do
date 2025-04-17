@@ -1,5 +1,5 @@
 SetActiveLib -work
-comp -include "$dsn\src\Controller.asf" 
+comp -include "$dsn\compile\Controller.vhd" 
 comp -include "$dsn\src\TestBench\controller_TB.vhd" 
 asim +access +r TESTBENCH_FOR_controller 
 wave 

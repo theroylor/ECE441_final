@@ -4,3 +4,6 @@
 .\src\Controller.asf
 .\src\Clock_Gen.bde
 .\src\clk_div_gen.vhd
+.\src\TestBench\bcd_counter_TB.vhd
+.\src\TestBench\controller_TB.vhd
+.\src\TestBench\stopwatch_TB.vhd

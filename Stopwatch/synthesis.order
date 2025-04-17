@@ -4,3 +4,6 @@ i<>.\src\BCD_counter.vhd
 i<>.\src\Controller.asf
 i<>.\src\Clock_Gen.bde
 i<>.\src\clk_div_gen.vhd
+i<>.\src\TestBench\bcd_counter_TB.vhd
+i<>.\src\TestBench\controller_TB.vhd
+i<>.\src\TestBench\stopwatch_TB.vhd
