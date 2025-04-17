@@ -2,7 +2,8 @@
 .\src\sevenseg.vhd
 .\src\BCD_counter.vhd
 .\src\Controller.asf
-.\src\Clock_Gen.vhd
+.\src\Clock_Div_Gen.vhd
+.\src\Clock_Gen.bde
 .\src\TestBench\stopwatch_TB.vhd
 .\src\TestBench\controller_TB.vhd
 .\src\TestBench\bcd_counter_TB.vhd

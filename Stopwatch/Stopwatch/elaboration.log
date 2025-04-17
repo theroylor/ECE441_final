@@ -1,36 +1,30 @@
-Active-HDL 12.0.118.7745 2025-04-16 18:32:06
+Active-HDL 12.0.118.7745 2025-04-17 14:31:39
 
 Elaboration top modules:
-Architecture                  TB_ARCHITECTURE(stopwatch_tb)
+Architecture                  behavioral(Clock_Div_Gen)
 
 
---------------------------------------------------------------------------------------------------
-Entity       | Architecture    | Library   | Info | Compiler Version        | Compilation Options
---------------------------------------------------------------------------------------------------
-stopwatch_tb | TB_ARCHITECTURE | stopwatch |      | 12.0.118.7745 (Windows) | -O3
-stopwatch    | stopwatch       | stopwatch |      | 12.0.118.7745 (Windows) | -O3
-Controller   | Controller_arch | stopwatch |      | 12.0.118.7745 (Windows) | -O3
-sevenseg     | behavioral      | stopwatch |      | 12.0.118.7745 (Windows) | -O3
-BCD_counter  | behavioral      | stopwatch |      | 12.0.118.7745 (Windows) | -O3
-Clock_Gen    | behavioral      | stopwatch |      | 12.0.118.7745 (Windows) | -O3
---------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+Entity        | Architecture | Library   | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------
+Clock_Div_Gen | behavioral   | stopwatch |      | 12.0.118.7745 (Windows) | -O3
+------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------
-VHDL Package                   | Library   | Info | Compiler Version        | Compilation Options
---------------------------------------------------------------------------------------------------
-standard                       | std       |      |                         | <unavailable>
-TEXTIO                         | std       |      |                         | <unavailable>
-std_logic_1164                 | ieee      |      |                         | <unavailable>
-std_logic_arith                | ieee      |      |                         | <unavailable>
-STD_LOGIC_UNSIGNED             | ieee      |      |                         | <unavailable>
-STD_LOGIC_SIGNED               | ieee      |      |                         | <unavailable>
-NUMERIC_STD                    | ieee      |      |                         | <unavailable>
---------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+VHDL Package                 | Library   | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------
+standard                     | std       |      |                         | <unavailable>
+TEXTIO                       | std       |      |                         | <unavailable>
+std_logic_1164               | ieee      |      |                         | <unavailable>
+std_logic_arith              | ieee      |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED           | ieee      |      |                         | <unavailable>
+STD_LOGIC_SIGNED             | ieee      |      |                         | <unavailable>
+------------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------------
-Library                        | Comment
---------------------------------------------------------------------------------------------------
-ieee                           | Standard IEEE packages library
-std                            | Standard VHDL library
-stopwatch                      | None
---------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+Library                      | Comment
+------------------------------------------------------------------------------------------------
+ieee                         | Standard IEEE packages library
+std                          | Standard VHDL library
+stopwatch                    | None
+------------------------------------------------------------------------------------------------

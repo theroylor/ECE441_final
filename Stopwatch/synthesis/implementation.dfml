@@ -1,0 +1,71 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Shell
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Thu Apr 17 14:27:50 2025
+Info: Command: quartus_sh --flow compile Stopwatch.qpf -c stopwatch
+Info: Quartus(args): compile Stopwatch.qpf -c stopwatch
+Info: Project Name = F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/synthesis/Stopwatch
+Info: Revision Name = stopwatch
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Thu Apr 17 14:27:51 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Stopwatch -c stopwatch
+Info (20034): Auto device selection is not supported for Cyclone V device family. The default device, 5CGXFC7C7F23C8, is set.
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file /neros/documents/github/ece441_final/stopwatch/compile/stopwatch.vhd
+    Info (12022): Found design unit 1: stopwatch-stopwatch File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 36
+    Info (12023): Found entity 1: stopwatch File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 24
+Info (12021): Found 2 design units, including 1 entities, in source file /neros/documents/github/ece441_final/stopwatch/src/sevenseg.vhd
+    Info (12022): Found design unit 1: sevenseg-behavioral File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/sevenseg.vhd Line: 14
+    Info (12023): Found entity 1: sevenseg File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/sevenseg.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /neros/documents/github/ece441_final/stopwatch/src/bcd_counter.vhd
+    Info (12022): Found design unit 1: BCD_counter-behavioral File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd Line: 20
+    Info (12023): Found entity 1: BCD_counter File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /neros/documents/github/ece441_final/stopwatch/compile/controller.vhd
+    Info (12022): Found design unit 1: Controller-Controller_arch File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd Line: 37
+    Info (12023): Found entity 1: Controller File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd Line: 27
+Info (12021): Found 2 design units, including 1 entities, in source file /neros/documents/github/ece441_final/stopwatch/compile/clock_gen.vhd
+    Info (12022): Found design unit 1: Clock_Gen-Clock_Gen File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Clock_Gen.vhd Line: 35
+    Info (12023): Found entity 1: Clock_Gen File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Clock_Gen.vhd Line: 27
+Info (12127): Elaborating entity "stopwatch" for the top level hierarchy
+Info (12128): Elaborating entity "Controller" for hierarchy "Controller:U1" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 91
+Info (12128): Elaborating entity "sevenseg" for hierarchy "sevenseg:U2" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 100
+Info (12128): Elaborating entity "BCD_counter" for hierarchy "BCD_counter:U6" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 124
+Info (12128): Elaborating entity "Clock_Gen" for hierarchy "Clock_Gen:U7" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 135
+Warning (12125): Using design file /neros/documents/github/ece441_final/stopwatch/src/clock_div_gen.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Clock_Div_Gen-behavioral File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clock_div_gen.vhd Line: 19
+    Info (12023): Found entity 1: Clock_Div_Gen File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clock_div_gen.vhd Line: 7
+Info (12128): Elaborating entity "Clock_Div_Gen" for hierarchy "Clock_Gen:U7|Clock_Div_Gen:U1" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Clock_Gen.vhd Line: 54
+Error (12077): Node instance "U1" instantiated with unknown parameter "clk_divisor" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Clock_Gen.vhd Line: 54
+Error (12152): Can't elaborate user hierarchy "Clock_Gen:U7|Clock_Div_Gen:U1" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Clock_Gen.vhd Line: 54
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 2 warnings
+    Error: Peak virtual memory: 4836 megabytes
+    Error: Processing ended: Thu Apr 17 14:28:01 2025
+    Error: Elapsed time: 00:00:10
+    Error: Total CPU time (on all processors): 00:00:23
+Error (293001): Quartus Prime Full Compilation was unsuccessful. 4 errors, 2 warnings
+Error: Flow compile (for project F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/synthesis/Stopwatch) was not successful
+Error: ERROR: Error(s) found while running an executable. See report file(s) for error message(s). Message log indicates which executable was run last.
+
+Error (23031): Evaluation of Tcl script c:/intelfpga_lite/20.1/quartus/common/tcl/internal/qsh_flow.tcl unsuccessful
+Error: Quartus Prime Shell was unsuccessful. 11 errors, 2 warnings
+    Error: Peak virtual memory: 4642 megabytes
+    Error: Processing ended: Thu Apr 17 14:28:01 2025
+    Error: Elapsed time: 00:00:11
+    Error: Total CPU time (on all processors): 00:00:01

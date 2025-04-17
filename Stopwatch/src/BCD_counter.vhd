@@ -18,25 +18,30 @@ entity BCD_counter is
 end BCD_counter; 
 
 architecture behavioral of BCD_counter is
-signal count : integer range 0 to 10E3;
+
+constant max_count : integer := 1E4 - 1;
+signal count : integer range 0 to max_count;	
+
 begin
-count_process:process(clock,reset,enable)	
-begin
-if reset = '1' then
-	count <= 0;
-elsif clock = '1' and clock'event and enable = '1' then
-	if count = 10E3 then
+	count_process:process(clock,reset,enable)	
+	begin
+	if reset = '0' then
 		count <= 0;
-	else
-	count <= count +1;
+	elsif clock = '1' and clock'event and enable = '1' then
+		if count < max_count then
+			count <= count +1;
+		else
+			count <= 0;
+		end if;
 	end if;
-end if;
-end process;
-output_process:process (count)
-begin
-	n0 <= std_logic_vector(to_unsigned((count/1E0) mod 10, 4));	
-	n1 <= std_logic_vector(to_unsigned((count/1E1) mod 10, 4));
-	n2 <= std_logic_vector(to_unsigned((count/1E2) mod 10, 4));
-	n3 <= std_logic_vector(to_unsigned((count/1E3) mod 10, 4));
-end process;
+	end process;	
+	
+	output_process:process (count)
+	begin
+		n0 <= std_logic_vector(to_unsigned((count/1E0) mod 10, 4));	
+		n1 <= std_logic_vector(to_unsigned((count/1E1) mod 10, 4));
+		n2 <= std_logic_vector(to_unsigned((count/1E2) mod 10, 4));
+		n3 <= std_logic_vector(to_unsigned((count/1E3) mod 10, 4));
+	end process;  
+	
 end architecture;

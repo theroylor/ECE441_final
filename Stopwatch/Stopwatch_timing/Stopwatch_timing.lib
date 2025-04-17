@@ -1,24 +1,7 @@
-timestamp=1744843320246
+timestamp=1744914511337
 
 [~A]
-ModifyID=1
+ModifyID=37
 Version=74
 
-[~MFT]
-0=7|0Stopwatch_timing.mgf|2624|0
-1=1|1Stopwatch_timing.mgf|0|0
-3=1|3Stopwatch_timing.mgf|0|0
 
-[stopwatch]
-A/stopwatch=21|../compile/stopwatch.vhd|36|1*0
-BinI32/stopwatch=3*0
-I=0*702
-I/stopwatch=0*2624
-M=11|0|ve8|1744843320115|../compile/stopwatch.vhd|0*221*0x311d78c898f01999593ed7e151a6bbf0c56fbd6f|0*615*0x23b75c12e3e89f2ef000564498faa8c2
-M/stopwatch=21|0|ve8|1744843320123|../compile/stopwatch.vhd|0*904*0xe82f41d184ab4dce514160a9b9f8365476a17f7c|0*2524*0x20116f55b147878295aeff36dce7fc50
-R=../compile/stopwatch.vhd|24
-Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|80786ac4920b7015d0ea101411496889a26c989bfd142d4b45cb211f4178385a4001b7871c07d314d5a3735616d9eef0
-Version/stopwatch=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|80786ac4920b7015d0ea101411496889a26c989bfd142d4b45cb211f4178385a4001b7871c07d314d5a3735616d9eef0
-
-[~U]
-stopwatch=11|0*0|
