@@ -42,7 +42,7 @@ LAST_RUN=1744923771
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=stopwatch|stopwatch|0
+HierarchyInformation=bcd_counter_tb|TB_ARCHITECTURE|0 controller_tb|TB_ARCHITECTURE|0 stopwatch_tb|TB_ARCHITECTURE|0 
 ShowHide=ShowTopLevel
 Selected=
 
