@@ -30,7 +30,7 @@ architecture TB_ARCHITECTURE of controller_tb is
 
 	-- Add your code here ...
 
-	constant clock_period : time := 10 ms;
+	constant clock_period : time := 20 ns;
 begin
 
 	-- Unit Under Test port map
@@ -52,14 +52,17 @@ end process;
 
 Stimulus_process: process
 begin	 
-	reset <= '0'; wait for 0 ns;
+	reset <= '1'; wait for 3 ns;
 	
-	input <= '0'; wait for 100 ms;
-	input <= '1'; wait for 100 ms;
-	input <= '0'; wait for 100 ms;
-	input <= '1'; wait for 100 ms;
-	input <= '0'; wait for 100 ms;
-	input <= '0';
+	input <= '0'; wait for 100 ns;
+	input <= '1'; wait for 100 ns;
+	input <= '0'; wait for 100 ns;
+	input <= '1'; wait for 100 ns;
+	input <= '0'; wait for 100 ns;
+	input <= '1'; wait for 100 ns;
+	input <= '0'; wait for 100 ns;
+	reset <= '0'; wait for 100 ns;
+	reset <= '1'; wait for 100 ns;
 	wait;
 end process;
 

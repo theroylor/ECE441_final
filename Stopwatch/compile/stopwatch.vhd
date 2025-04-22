@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\stopwatch.vhd
--- Generated   : Thu Apr 17 18:53:36 2025
+-- Generated   : Tue Apr 22 18:11:27 2025
 -- From        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\stopwatch.bde
 -- By          : Bde2Vhdl ver. 2.6
 --

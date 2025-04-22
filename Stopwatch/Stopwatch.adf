@@ -87,6 +87,12 @@ TestBench=1
 /Controller.asf=-1
 /Clock_Gen.bde=-1
 /clk_div_gen.vhd=-1
+/Stopwatch_TB.asdb=-1
+/Stopwatch_TB.awc=-1
+/controller_TB.asdb=-1
+/controller_TB.awc=-1
+/BCD_counter_TB.asdb=-1
+/BCD_counter_TB.awc=-1
 TestBench/bcd_counter_TB.vhd=-1
 TestBench/bcd_counter_TB_runtest.do=-1
 TestBench/controller_TB.vhd=-1
@@ -101,21 +107,25 @@ TestBench/stopwatch_TB_runtest.do=-1
 .\src\Controller.asf=State Diagram
 .\src\Clock_Gen.bde=Block Diagram
 .\src\clk_div_gen.vhd=VHDL Source Code
+.\src\Stopwatch_TB.asdb=Accelerated Waveform File
+.\src\Stopwatch_TB.awc=Accelerated Waveform Configuration
+.\src\controller_TB.asdb=Accelerated Waveform File
+.\src\controller_TB.awc=Accelerated Waveform Configuration
+.\src\BCD_counter_TB.asdb=Accelerated Waveform File
+.\src\BCD_counter_TB.awc=Accelerated Waveform Configuration
 .\src\TestBench\bcd_counter_TB.vhd=VHDL Test Bench
 .\src\TestBench\bcd_counter_TB_runtest.do=Macro
 .\src\TestBench\controller_TB.vhd=VHDL Test Bench
 .\src\TestBench\controller_TB_runtest.do=Macro
 .\src\TestBench\stopwatch_TB.vhd=VHDL Test Bench
 .\src\TestBench\stopwatch_TB_runtest.do=Macro
-.\compile\Clock_Gen.vhd=VHDL Source Code
-.\compile\stopwatch.vhd=VHDL Source Code
-.\compile\Controller.vhd=VHDL Source Code
 
-
+[file_out:/stopwatch.bde]
+/..\compile\stopwatch.vhd=-1
 
 [file_out:/Controller.asf]
 /..\compile\Controller.vhd=-1
-[file_out:/stopwatch.bde]
-/..\compile\stopwatch.vhd=-1
+
 [file_out:/Clock_Gen.bde]
 /..\compile\Clock_Gen.vhd=-1
+

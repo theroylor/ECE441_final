@@ -55,8 +55,10 @@ end process;
 
 Stimulus_process: process
 begin	 
-	Key0 <= '1'; wait for 0 ns;
+	Key0 <= '1'; wait for 3 ns;
 	
+	Key3 <= '0'; wait for 100 ms;
+	Key3 <= '1'; wait for 100 ms;
 	Key3 <= '0'; wait for 100 ms;
 	Key3 <= '1'; wait for 100 ms;
 	Key3 <= '0'; wait for 100 ms;

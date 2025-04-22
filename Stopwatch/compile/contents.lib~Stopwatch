@@ -1,4 +1,4 @@
-118
+155
 ~E 1 "../src/BCD_counter.vhd" 8 BCD_counter
 ~A 1 "../src/BCD_counter.vhd" 20 behavioral
 ~E 1 "../src/TestBench/bcd_counter_TB.vhd" 10 bcd_counter_tb
@@ -17,6 +17,6 @@
 ~A 1 "../compile/stopwatch.vhd" 36 stopwatch
 ~E 1 "../src/TestBench/stopwatch_TB.vhd" 6 stopwatch_tb
 ~A 1 "../src/TestBench/stopwatch_TB.vhd" 9 TB_ARCHITECTURE
-~C 1 "../src/TestBench/bcd_counter_TB.vhd" 73 testbench_for_bcd_counter
-~C 1 "../src/TestBench/controller_TB.vhd" 68 testbench_for_controller
-~C 1 "../src/TestBench/stopwatch_TB.vhd" 73 testbench_for_stopwatch
+~C 1 "../src/TestBench/bcd_counter_TB.vhd" 76 testbench_for_bcd_counter
+~C 1 "../src/TestBench/controller_TB.vhd" 71 testbench_for_controller
+~C 1 "../src/TestBench/stopwatch_TB.vhd" 75 testbench_for_stopwatch

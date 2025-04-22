@@ -58,13 +58,16 @@ end process;
 
 Stimulus_process: process
 begin	
-	reset<= '0';
-	enable <= '0'; wait for 1000 * clock_period;
-	enable <= '1'; wait for 1000 * clock_period;
-	reset<= '1'; wait for 250 * clock_period;
-	enable <= '0'; wait for 250 * clock_period;
-	enable <= '1'; wait for 250 * clock_period;
-	reset <= '0'; wait for 250 * clock_period;
+	reset<= '1'; wait for 3 ms;
+	enable <= '0'; wait for 1 sec;
+	enable <= '1'; wait for 1 sec;
+	reset<= '0'; wait for 1 sec;
+	enable <= '0'; wait for 3 sec;
+	enable <= '1'; wait for 3 sec;
+	enable <= '0'; wait for 3 sec;
+	enable <= '1'; wait for 3 sec;
+	reset <= '1'; wait for 3 sec;	   
+	reset <= '0'; wait for 3 sec;
 	wait;
 end process; 
 

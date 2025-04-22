@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\Clock_Gen.vhd
--- Generated   : Thu Apr 17 18:53:29 2025
+-- Generated   : Tue Apr 22 18:09:34 2025
 -- From        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\Clock_Gen.bde
 -- By          : Bde2Vhdl ver. 2.6
 --

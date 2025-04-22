@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd
--- Generated   : Thu Apr 17 16:48:40 2025
+-- Generated   : Tue Apr 22 18:11:44 2025
 -- From        : F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/Controller.asf
 -- By          : Active-HDL 12 FSM Code Generator ver. 6.0
 --
