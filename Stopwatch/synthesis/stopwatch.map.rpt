@@ -1,5 +1,5 @@
 Analysis & Synthesis report for stopwatch
-Thu Apr 17 18:20:59 2025
+Tue May 06 15:32:36 2025
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -14,7 +14,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Parameter Settings for User Entity Instance: Clock_Gen:U7|clk_div_gen:U1
+  9. Parameter Settings for User Entity Instance: Clock_Gen:U7
  10. Parameter Settings for Inferred Entity Instance: BCD_counter:U6|lpm_divide:Mod0
  11. Parameter Settings for Inferred Entity Instance: BCD_counter:U6|lpm_divide:Div0
  12. Parameter Settings for Inferred Entity Instance: BCD_counter:U6|lpm_divide:Mod1
@@ -51,7 +51,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Apr 17 18:20:59 2025       ;
+; Analysis & Synthesis Status     ; Successful - Tue May 06 15:32:36 2025       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; stopwatch                                   ;
 ; Top-level Entity Name           ; stopwatch                                   ;
@@ -171,8 +171,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-12        ;   0.0%      ;
+;     Processors 2-12        ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -185,8 +184,7 @@ https://fpgasoftware.intel.com/eula.
 ; ../src/sevenseg.vhd              ; yes             ; User VHDL File               ; F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/sevenseg.vhd                     ;         ;
 ; ../src/BCD_counter.vhd           ; yes             ; User VHDL File               ; F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd                  ;         ;
 ; ../compile/Controller.vhd        ; yes             ; User VHDL File               ; F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd               ;         ;
-; ../compile/Clock_Gen.vhd         ; yes             ; User VHDL File               ; F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Clock_Gen.vhd                ;         ;
-; ../src/clk_div_gen.vhd           ; yes             ; User VHDL File               ; F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clk_div_gen.vhd                  ;         ;
+; clock_gen.vhd                    ; yes             ; Auto-Found VHDL File         ; F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clock_gen.vhd                    ;         ;
 ; lpm_divide.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_divide.tdf                 ;         ;
 ; abs_divider.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/abs_divider.inc                ;         ;
 ; sign_div_unsign.inc              ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/sign_div_unsign.inc            ;         ;
@@ -268,8 +266,7 @@ https://fpgasoftware.intel.com/eula.
 ;          |lpm_divide_65m:auto_generated|  ; 59 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |stopwatch|BCD_counter:U6|lpm_divide:Mod3|lpm_divide_65m:auto_generated                                                   ; lpm_divide_65m      ; work         ;
 ;             |sign_div_unsign_9nh:divider| ; 59 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |stopwatch|BCD_counter:U6|lpm_divide:Mod3|lpm_divide_65m:auto_generated|sign_div_unsign_9nh:divider                       ; sign_div_unsign_9nh ; work         ;
 ;                |alt_u_div_o2f:divider|    ; 59 (59)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |stopwatch|BCD_counter:U6|lpm_divide:Mod3|lpm_divide_65m:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_o2f:divider ; alt_u_div_o2f       ; work         ;
-;    |Clock_Gen:U7|                         ; 24 (0)              ; 19 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |stopwatch|Clock_Gen:U7                                                                                                   ; Clock_Gen           ; work         ;
-;       |clk_div_gen:U1|                    ; 24 (24)             ; 19 (19)                   ; 0                 ; 0          ; 0    ; 0            ; |stopwatch|Clock_Gen:U7|clk_div_gen:U1                                                                                    ; clk_div_gen         ; work         ;
+;    |Clock_Gen:U7|                         ; 24 (24)             ; 19 (19)                   ; 0                 ; 0          ; 0    ; 0            ; |stopwatch|Clock_Gen:U7                                                                                                   ; Clock_Gen           ; work         ;
 ;    |Controller:U1|                        ; 3 (3)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |stopwatch|Controller:U1                                                                                                  ; Controller          ; work         ;
 ;    |sevenseg:U2|                          ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |stopwatch|sevenseg:U2                                                                                                    ; sevenseg            ; work         ;
 ;    |sevenseg:U3|                          ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |stopwatch|sevenseg:U3                                                                                                    ; sevenseg            ; work         ;
@@ -294,14 +291,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+--------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Clock_Gen:U7|clk_div_gen:U1 ;
-+----------------+----------+----------------------------------------------+
-; Parameter Name ; Value    ; Type                                         ;
-+----------------+----------+----------------------------------------------+
-; in_hz          ; 50000000 ; Signed Integer                               ;
-; out_hz         ; 100      ; Signed Integer                               ;
-+----------------+----------+----------------------------------------------+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Clock_Gen:U7 ;
++----------------+----------+-------------------------------+
+; Parameter Name ; Value    ; Type                          ;
++----------------+----------+-------------------------------+
+; in_hz          ; 50000000 ; Signed Integer                ;
+; out_hz         ; 100      ; Signed Integer                ;
++----------------+----------+-------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -506,7 +503,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -516,7 +513,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Apr 17 18:20:47 2025
+    Info: Processing started: Tue May 06 15:32:23 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Stopwatch -c stopwatch
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -532,18 +529,14 @@ Info (12021): Found 2 design units, including 1 entities, in source file /neros/
 Info (12021): Found 2 design units, including 1 entities, in source file /neros/documents/github/ece441_final/stopwatch/compile/controller.vhd
     Info (12022): Found design unit 1: Controller-Controller_arch File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd Line: 37
     Info (12023): Found entity 1: Controller File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Controller.vhd Line: 27
-Info (12021): Found 2 design units, including 1 entities, in source file /neros/documents/github/ece441_final/stopwatch/compile/clock_gen.vhd
-    Info (12022): Found design unit 1: Clock_Gen-Clock_Gen File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Clock_Gen.vhd Line: 32
-    Info (12023): Found entity 1: Clock_Gen File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Clock_Gen.vhd Line: 24
-Info (12021): Found 2 design units, including 1 entities, in source file /neros/documents/github/ece441_final/stopwatch/src/clk_div_gen.vhd
-    Info (12022): Found design unit 1: clk_div_gen-behavior File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clk_div_gen.vhd Line: 42
-    Info (12023): Found entity 1: clk_div_gen File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clk_div_gen.vhd Line: 28
 Info (12127): Elaborating entity "stopwatch" for the top level hierarchy
-Info (12128): Elaborating entity "Controller" for hierarchy "Controller:U1" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 91
-Info (12128): Elaborating entity "sevenseg" for hierarchy "sevenseg:U2" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 100
-Info (12128): Elaborating entity "BCD_counter" for hierarchy "BCD_counter:U6" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 124
-Info (12128): Elaborating entity "Clock_Gen" for hierarchy "Clock_Gen:U7" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 135
-Info (12128): Elaborating entity "clk_div_gen" for hierarchy "Clock_Gen:U7|clk_div_gen:U1" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/Clock_Gen.vhd Line: 52
+Info (12128): Elaborating entity "Controller" for hierarchy "Controller:U1" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 95
+Info (12128): Elaborating entity "sevenseg" for hierarchy "sevenseg:U2" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 104
+Info (12128): Elaborating entity "BCD_counter" for hierarchy "BCD_counter:U6" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 128
+Warning (12125): Using design file /neros/documents/github/ece441_final/stopwatch/src/clock_gen.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Clock_Gen-behavior File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clock_gen.vhd Line: 42
+    Info (12023): Found entity 1: Clock_Gen File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/clock_gen.vhd Line: 28
+Info (12128): Elaborating entity "Clock_Gen" for hierarchy "Clock_Gen:U7" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/compile/stopwatch.vhd Line: 139
 Info (278001): Inferred 7 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_counter:U6|Mod0" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd Line: 38
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_counter:U6|Div0" File: F:/Neros/Documents/GitHub/ECE441_final/Stopwatch/src/BCD_counter.vhd Line: 39
@@ -607,10 +600,10 @@ Info (21057): Implemented 1118 device resources after synthesis - the final reso
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 28 output pins
     Info (21061): Implemented 1087 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4929 megabytes
-    Info: Processing ended: Thu Apr 17 18:20:59 2025
-    Info: Elapsed time: 00:00:12
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4930 megabytes
+    Info: Processing ended: Tue May 06 15:32:36 2025
+    Info: Elapsed time: 00:00:13
     Info: Total CPU time (on all processors): 00:00:24
 
 
