@@ -42,7 +42,7 @@ LAST_RUN=1744923771
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=bcd_counter_tb|TB_ARCHITECTURE|0 controller_tb|TB_ARCHITECTURE|0 stopwatch_tb|TB_ARCHITECTURE|0 
+HierarchyInformation=bcd_counter_tb|TB_ARCHITECTURE|0 stopwatch|stopwatch|0 stopwatch_tb|testbench_for_stopwatch|1 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -80,13 +80,15 @@ LAST_RUN=1744923771
 [Groups]
 TestBench=1
 
+[file_out:/Clock_Gen.bde]
+/..\compile\Clock_Gen.vhd=-1
+
 [Files]
 /stopwatch.bde=-1
 /sevenseg.vhd=-1
 /BCD_counter.vhd=-1
 /Controller.asf=-1
-/Clock_Gen.bde=-1
-/clk_div_gen.vhd=-1
+/Clock_Gen.vhd=-1
 /Stopwatch_TB.asdb=-1
 /Stopwatch_TB.awc=-1
 /controller_TB.asdb=-1
@@ -105,8 +107,7 @@ TestBench/stopwatch_TB_runtest.do=-1
 .\src\sevenseg.vhd=VHDL Source Code
 .\src\BCD_counter.vhd=VHDL Source Code
 .\src\Controller.asf=State Diagram
-.\src\Clock_Gen.bde=Block Diagram
-.\src\clk_div_gen.vhd=VHDL Source Code
+.\src\Clock_Gen.vhd=VHDL Source Code
 .\src\Stopwatch_TB.asdb=Accelerated Waveform File
 .\src\Stopwatch_TB.awc=Accelerated Waveform Configuration
 .\src\controller_TB.asdb=Accelerated Waveform File
@@ -125,7 +126,4 @@ TestBench/stopwatch_TB_runtest.do=-1
 
 [file_out:/Controller.asf]
 /..\compile\Controller.vhd=-1
-
-[file_out:/Clock_Gen.bde]
-/..\compile\Clock_Gen.vhd=-1
 

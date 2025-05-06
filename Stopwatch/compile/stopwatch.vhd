@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\compile\stopwatch.vhd
--- Generated   : Tue Apr 22 18:11:27 2025
+-- Generated   : Tue May  6 11:16:15 2025
 -- From        : F:\Neros\Documents\GitHub\ECE441_final\Stopwatch\src\stopwatch.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -49,6 +49,10 @@ component BCD_counter
   );
 end component;
 component Clock_Gen
+  generic(
+       in_hz : INTEGER := 50000000;
+       out_hz : INTEGER := 100
+  );
   port(
        reset : in STD_LOGIC;
        clock : in STD_LOGIC;

@@ -1,32 +1,48 @@
-Active-HDL 12.0.118.7745 2025-04-22 18:36:13
+Active-HDL 12.0.118.7745 2025-05-06 11:17:11
 
 Elaboration top modules:
-Architecture                  TB_ARCHITECTURE(bcd_counter_tb)
+VHDL Configuration            testbench_for_stopwatch
 
 
-----------------------------------------------------------------------------------------------------
-Entity         | Architecture    | Library   | Info | Compiler Version        | Compilation Options
-----------------------------------------------------------------------------------------------------
-bcd_counter_tb | TB_ARCHITECTURE | stopwatch |      | 12.0.118.7745 (Windows) | -O3
-BCD_counter    | behavioral      | stopwatch |      | 12.0.118.7745 (Windows) | -O3
-----------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+Entity       | Architecture    | Library   | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------
+stopwatch_tb | TB_ARCHITECTURE | stopwatch |      | 12.0.118.7745 (Windows) | -O3
+stopwatch    | stopwatch       | stopwatch |      | 12.0.118.7745 (Windows) | -O3
+Controller   | Controller_arch | stopwatch |      | 12.0.118.7745 (Windows) | -O3
+sevenseg     | behavioral      | stopwatch |      | 12.0.118.7745 (Windows) | -O3
+BCD_counter  | behavioral      | stopwatch |      | 12.0.118.7745 (Windows) | -O3
+Clock_Gen    | behavior        | stopwatch |      | 12.0.118.7745 (Windows) | -O3
+--------------------------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------------------------
-VHDL Package                     | Library   | Info | Compiler Version        | Compilation Options
-----------------------------------------------------------------------------------------------------
-standard                         | std       |      |                         | <unavailable>
-TEXTIO                           | std       |      |                         | <unavailable>
-std_logic_1164                   | ieee      |      |                         | <unavailable>
-NUMERIC_STD                      | ieee      |      |                         | <unavailable>
-std_logic_arith                  | ieee      |      |                         | <unavailable>
-STD_LOGIC_SIGNED                 | ieee      |      |                         | <unavailable>
-STD_LOGIC_UNSIGNED               | ieee      |      |                         | <unavailable>
-----------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+VHDL Configuration             | Library   | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------
+testbench_for_stopwatch        | stopwatch |      |                         | <unavailable>
+--------------------------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------------------------
-Library                          | Comment
-----------------------------------------------------------------------------------------------------
-ieee                             | Standard IEEE packages library
-std                              | Standard VHDL library
-stopwatch                        | None
-----------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+VHDL Package                   | Library   | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------------
+standard                       | std       |      |                         | <unavailable>
+TEXTIO                         | std       |      |                         | <unavailable>
+std_logic_1164                 | ieee      |      |                         | <unavailable>
+std_logic_arith                | ieee      |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED             | ieee      |      |                         | <unavailable>
+STD_LOGIC_SIGNED               | ieee      |      |                         | <unavailable>
+NUMERIC_STD                    | ieee      |      |                         | <unavailable>
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+Library                        | Comment
+--------------------------------------------------------------------------------------------------
+ieee                           | Standard IEEE packages library
+std                            | Standard VHDL library
+stopwatch                      | None
+--------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+testbench_for_stopwatch testbench_for_stopwatch
+
+
+The performance of simulation is reduced. Version EDU Edition

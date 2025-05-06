@@ -51,7 +51,7 @@
     </propertybases>
     <timebases>
         <timebase id="0">
-            <time start_time="0" end_time="2037485" />
+            <time start_time="0" end_time="10413812" />
         </timebase>
     </timebases>
     <prefbases>
@@ -74,7 +74,7 @@
         </comments>
     </commentbases>
     <views>
-        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+        <view signallist="0" propertybase="0" prefbase="-1" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
     </views>
     <virtualsources>
         <virtualnamedrows>
